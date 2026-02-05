@@ -1,0 +1,112 @@
+name: Sync Skills from Upstream
+
+on:
+  # 每天 UTC 00:00 自动运行
+  schedule:
+    - cron: '0 0 * * *'
+  
+  # 允许手动触发
+  workflow_dispatch:
+    inputs:
+      create_pr:
+        description: 'Create PR instead of direct commit'
+        required: false
+        default: 'true'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Update all submodules
+        run: |
+          echo "🔄 更新所有子模块..."
+          git submodule update --init --recursive
+          git submodule update --remote
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet HEAD; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "✅ 所有子模块已是最新版本，无需更新"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "📦 发现更新，准备提交..."
+          fi
+
+      - name: Generate update summary
+        if: steps.check_changes.outputs.has_changes == 'true'
+        id: summary
+        run: |
+          echo "summary<<EOF" >> $GITHUB_OUTPUT
+          echo "## Skills 同步更新" >> $GITHUB_OUTPUT
+          echo "" >> $GITHUB_OUTPUT
+          echo "**更新时间:** $(date '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_OUTPUT
+          echo "" >> $GITHUB_OUTPUT
+          echo "### 更新的来源:" >> $GITHUB_OUTPUT
+          git submodule status | awk '{print "- **" $2 "**: `" $1 "`"}' | sed 's/skills\///' >> $GITHUB_OUTPUT
+          echo "" >> $GITHUB_OUTPUT
+          echo "### 最近的提交:" >> $GITHUB_OUTPUT
+          echo '```' >> $GITHUB_OUTPUT
+          git submodule foreach 'echo "=== $name ===" && git log --oneline -3 HEAD' >> $GITHUB_OUTPUT
+          echo '```' >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        if: steps.check_changes.outputs.has_changes == 'true' && (github.event.inputs.create_pr == 'true' || github.event_name == 'schedule')
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: |
+            chore: sync skills from upstream repositories
+
+            $(date '+%Y-%m-%d %H:%M:%S UTC')
+          branch: sync/skills-update
+          title: '🔄 Sync Skills from Upstream Repositories'
+          body: ${{ steps.summary.outputs.summary }}
+          labels: |
+            automated
+            skills-sync
+          delete-branch: true
+
+      - name: Direct commit (if not creating PR)
+        if: steps.check_changes.outputs.has_changes == 'true' && github.event.inputs.create_pr == 'false'
+        run: |
+          git add .
+          git commit -m "chore: sync skills from upstream repositories
+
+          $(date '+%Y-%m-%d %H:%M:%S UTC')"
+          git push
+
+  notify:
+    needs: sync
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Notify status
+        run: |
+          if [ "${{ needs.sync.result }}" == "success" ]; then
+            echo "✅ Skills 同步完成"
+          else
+            echo "❌ Skills 同步失败"
+          fi

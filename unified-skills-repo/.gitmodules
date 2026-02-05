@@ -1,0 +1,34 @@
+[submodule "skills/anthropics"]
+	path = skills/anthropics
+	url = https://github.com/anthropics/skills.git
+	branch = main
+
+[submodule "skills/superpowers"]
+	path = skills/superpowers
+	url = https://github.com/obra/superpowers.git
+	branch = main
+
+[submodule "skills/antigravity"]
+	path = skills/antigravity
+	url = https://github.com/sickn33/antigravity-awesome-skills.git
+	branch = main
+
+[submodule "skills/planning-with-files"]
+	path = skills/planning-with-files
+	url = https://github.com/OthmanAdi/planning-with-files.git
+	branch = main
+
+[submodule "skills/composio"]
+	path = skills/composio
+	url = https://github.com/ComposioHQ/awesome-claude-skills.git
+	branch = main
+
+[submodule "skills/openai"]
+	path = skills/openai
+	url = https://github.com/openai/skills.git
+	branch = main
+
+[submodule "skills/voltagent"]
+	path = skills/voltagent
+	url = https://github.com/VoltAgent/awesome-openclaw-skills.git
+	branch = main

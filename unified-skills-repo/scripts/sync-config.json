@@ -1,0 +1,75 @@
+{
+  "version": "1.0",
+  "description": "Skills 同步配置文件 - 定义各个来源的同步规则",
+  "sources": [
+    {
+      "name": "anthropics",
+      "displayName": "Anthropic Official Skills",
+      "repo": "https://github.com/anthropics/skills",
+      "localPath": "skills/anthropics",
+      "skillPaths": ["skills"],
+      "exclude": ["template", "spec", ".claude-plugin"],
+      "description": "Anthropic 官方 Skills，包含文档处理、艺术创作等"
+    },
+    {
+      "name": "superpowers",
+      "displayName": "Superpowers",
+      "repo": "https://github.com/obra/superpowers",
+      "localPath": "skills/superpowers",
+      "skillPaths": ["skills"],
+      "exclude": [],
+      "description": "完整的软件开发工作流，TDD、调试等最佳实践"
+    },
+    {
+      "name": "antigravity",
+      "displayName": "Antigravity Awesome Skills",
+      "repo": "https://github.com/sickn33/antigravity-awesome-skills",
+      "localPath": "skills/antigravity",
+      "skillPaths": ["."],
+      "exclude": ["docs", "scripts", ".github", "CATALOG.md", "README.md"],
+      "description": "600+ 通用 AI Agent Skills"
+    },
+    {
+      "name": "planning-with-files",
+      "displayName": "Planning with Files",
+      "repo": "https://github.com/OthmanAdi/planning-with-files",
+      "localPath": "skills/planning-with-files",
+      "skillPaths": ["skills", ".claude/skills", ".cursor/skills"],
+      "exclude": ["docs", "commands", "templates", ".github"],
+      "description": "Manus 风格的文件规划工作流"
+    },
+    {
+      "name": "composio",
+      "displayName": "Composio Skills",
+      "repo": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "localPath": "skills/composio",
+      "skillPaths": ["skills"],
+      "exclude": [],
+      "description": "Composio 集成 Skills"
+    },
+    {
+      "name": "openai",
+      "displayName": "OpenAI Skills",
+      "repo": "https://github.com/openai/skills",
+      "localPath": "skills/openai",
+      "skillPaths": ["skills/.curated", "skills/.experimental", "skills/.system"],
+      "exclude": [],
+      "description": "OpenAI Codex 官方 Skills"
+    },
+    {
+      "name": "voltagent",
+      "displayName": "VoltAgent OpenClaw Skills",
+      "repo": "https://github.com/VoltAgent/awesome-openclaw-skills",
+      "localPath": "skills/voltagent",
+      "skillPaths": ["skills"],
+      "exclude": [],
+      "description": "OpenClaw 社区 Skills"
+    }
+  ],
+  "syncOptions": {
+    "flattenStructure": false,
+    "keepOriginalStructure": true,
+    "autoCommit": false,
+    "createPR": true
+  }
+}
