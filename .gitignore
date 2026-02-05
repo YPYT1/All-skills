@@ -10,3 +10,6 @@ node_modules/
 **/*settings.local.json
 **/*.local.json
 **/.claude/
+
+# generated clones for syncing (do not commit)
+upstream/
