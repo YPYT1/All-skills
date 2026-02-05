@@ -1,0 +1,513 @@
+{
+  "count": 127,
+  "skills": [
+    {
+      "name": "adhd-assistant",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/adhd-assistant"
+    },
+    {
+      "name": "advanced-skill-creator",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/advanced-skill-creator"
+    },
+    {
+      "name": "agent-builder",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/agent-builder"
+    },
+    {
+      "name": "agentarxiv",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/agentarxiv"
+    },
+    {
+      "name": "alter-actions",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/alter-actions"
+    },
+    {
+      "name": "api-contract-sync-manager",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/api-contract-sync-manager"
+    },
+    {
+      "name": "api-integration-specialist",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/api-integration-specialist"
+    },
+    {
+      "name": "api-tester",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/api-tester"
+    },
+    {
+      "name": "atlas",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/atlas"
+    },
+    {
+      "name": "backend-architect",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/backend-architect"
+    },
+    {
+      "name": "brave-search",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/brave-search"
+    },
+    {
+      "name": "bug-detective",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/bug-detective"
+    },
+    {
+      "name": "bug-fix",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/bug-fix"
+    },
+    {
+      "name": "clawdbot-sync",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/clawdbot-sync"
+    },
+    {
+      "name": "cloudflare-deploy",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/cloudflare-deploy"
+    },
+    {
+      "name": "code-architect",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/code-architect"
+    },
+    {
+      "name": "code-review",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/code-review"
+    },
+    {
+      "name": "code-review-assistant",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/code-review-assistant"
+    },
+    {
+      "name": "code-reviewer",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/code-reviewer"
+    },
+    {
+      "name": "codebase-documenter",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/codebase-documenter"
+    },
+    {
+      "name": "codex-readiness-integration-test",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/codex-readiness-integration-test"
+    },
+    {
+      "name": "codex-readiness-unit-test",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/codex-readiness-unit-test"
+    },
+    {
+      "name": "commit",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/commit"
+    },
+    {
+      "name": "commit-commands",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/commit-commands"
+    },
+    {
+      "name": "compliance-automation-specialist",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/compliance-automation-specialist"
+    },
+    {
+      "name": "content-creator",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/content-creator"
+    },
+    {
+      "name": "context7-docs-fetcher",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/context7-docs-fetcher"
+    },
+    {
+      "name": "create-plan",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/create-plan"
+    },
+    {
+      "name": "create-pr",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/create-pr"
+    },
+    {
+      "name": "create-pull-request",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/create-pull-request"
+    },
+    {
+      "name": "create-worktrees",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/create-worktrees"
+    },
+    {
+      "name": "customer-success-manager",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/customer-success-manager"
+    },
+    {
+      "name": "data-privacy-engineer",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/data-privacy-engineer"
+    },
+    {
+      "name": "debugger",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/debugger"
+    },
+    {
+      "name": "desktop-app-dev",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/desktop-app-dev"
+    },
+    {
+      "name": "develop-web-game",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/develop-web-game"
+    },
+    {
+      "name": "devops-automator",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/devops-automator"
+    },
+    {
+      "name": "doc",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/doc"
+    },
+    {
+      "name": "docx",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/docx"
+    },
+    {
+      "name": "exa",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/exa"
+    },
+    {
+      "name": "excalidraw-flowchart",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/excalidraw-flowchart"
+    },
+    {
+      "name": "feishu-card",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/feishu-card"
+    },
+    {
+      "name": "figma",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/figma"
+    },
+    {
+      "name": "figma-implement-design",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/figma-implement-design"
+    },
+    {
+      "name": "firecrawl-search",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/firecrawl-search"
+    },
+    {
+      "name": "fix-github-issue",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/fix-github-issue"
+    },
+    {
+      "name": "fix-issue",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/fix-issue"
+    },
+    {
+      "name": "fix-pr",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/fix-pr"
+    },
+    {
+      "name": "frontend-design",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/frontend-design"
+    },
+    {
+      "name": "frontend-developer",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/frontend-developer"
+    },
+    {
+      "name": "generate-api-docs",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/generate-api-docs"
+    },
+    {
+      "name": "gh-address-comments",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/gh-address-comments"
+    },
+    {
+      "name": "gh-fix-ci",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/gh-fix-ci"
+    },
+    {
+      "name": "github-issue-fix",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/github-issue-fix"
+    },
+    {
+      "name": "gitlab-address-comments",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/gitlab-address-comments"
+    },
+    {
+      "name": "google-search",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/google-search"
+    },
+    {
+      "name": "growth-hacker",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/growth-hacker"
+    },
+    {
+      "name": "homebrew",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/homebrew"
+    },
+    {
+      "name": "imagegen",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/imagegen"
+    },
+    {
+      "name": "json-canvas",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/json-canvas"
+    },
+    {
+      "name": "jupyter-notebook",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/jupyter-notebook"
+    },
+    {
+      "name": "linear",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/linear"
+    },
+    {
+      "name": "literature-review",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/literature-review"
+    },
+    {
+      "name": "media-backup",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/media-backup"
+    },
+    {
+      "name": "netlify-deploy",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/netlify-deploy"
+    },
+    {
+      "name": "news-aggregator-skill",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/news-aggregator-skill"
+    },
+    {
+      "name": "notion-knowledge-capture",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/notion-knowledge-capture"
+    },
+    {
+      "name": "notion-meeting-intelligence",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/notion-meeting-intelligence"
+    },
+    {
+      "name": "notion-research-documentation",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/notion-research-documentation"
+    },
+    {
+      "name": "notion-spec-to-implementation",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/notion-spec-to-implementation"
+    },
+    {
+      "name": "obsidian-bases",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/obsidian-bases"
+    },
+    {
+      "name": "obsidian-markdown",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/obsidian-markdown"
+    },
+    {
+      "name": "openai-docs",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/openai-docs"
+    },
+    {
+      "name": "openapi-expert",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/openapi-expert"
+    },
+    {
+      "name": "openclaws",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/openclaws"
+    },
+    {
+      "name": "pdf",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/pdf"
+    },
+    {
+      "name": "plan",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/plan"
+    },
+    {
+      "name": "planning-with-files",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/planning-with-files"
+    },
+    {
+      "name": "playwright",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/playwright"
+    },
+    {
+      "name": "pptx",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/pptx"
+    },
+    {
+      "name": "pr-issue-resolve",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/pr-issue-resolve"
+    },
+    {
+      "name": "pr-review",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/pr-review"
+    },
+    {
+      "name": "pr-review-toolkit",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/pr-review-toolkit"
+    },
+    {
+      "name": "prd-specialist",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/prd-specialist"
+    },
+    {
+      "name": "ralph-wiggum",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/ralph-wiggum"
+    },
+    {
+      "name": "rapid-prototyper",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/rapid-prototyper"
+    },
+    {
+      "name": "react-best-practices",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/react-best-practices"
+    },
+    {
+      "name": "react-native-dev",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/react-native-dev"
+    },
+    {
+      "name": "reddit-community-builder",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/reddit-community-builder"
+    },
+    {
+      "name": "render-deploy",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/render-deploy"
+    },
+    {
+      "name": "ringbot",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/ringbot"
+    },
+    {
+      "name": "screenshot",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/screenshot"
+    },
+    {
+      "name": "search3",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/search3"
+    },
+    {
+      "name": "security-best-practices",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/security-best-practices"
+    },
+    {
+      "name": "security-ownership-map",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/security-ownership-map"
+    },
+    {
+      "name": "security-threat-model",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/security-threat-model"
+    },
+    {
+      "name": "senior-backend",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/senior-backend"
+    },
+    {
+      "name": "sentry",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/sentry"
+    },
+    {
+      "name": "skill-creator",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/skill-creator"
+    },
+    {
+      "name": "skill-installer",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/skill-installer"
+    },
+    {
+      "name": "sonoscli",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/sonoscli"
+    },
+    {
+      "name": "sora",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/sora"
+    },
+    {
+      "name": "speech",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/speech"
+    },
+    {
+      "name": "spreadsheet",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/spreadsheet"
+    },
+    {
+      "name": "supabase-auth",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/supabase-auth"
+    },
+    {
+      "name": "supabase-database",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/supabase-database"
+    },
+    {
+      "name": "supabase-edge-functions",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/supabase-edge-functions"
+    },
+    {
+      "name": "supabase-realtime",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/supabase-realtime"
+    },
+    {
+      "name": "supabase-storage",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/supabase-storage"
+    },
+    {
+      "name": "transcribe",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/transcribe"
+    },
+    {
+      "name": "travel-agent",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/travel-agent"
+    },
+    {
+      "name": "ui-designer",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/ui-designer"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/ui-ux-pro-max"
+    },
+    {
+      "name": "ultrathink",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/ultrathink"
+    },
+    {
+      "name": "unit-test-generator",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/unit-test-generator"
+    },
+    {
+      "name": "ux-researcher",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/ux-researcher"
+    },
+    {
+      "name": "vercel-deploy",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/vercel-deploy"
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/vercel-react-best-practices"
+    },
+    {
+      "name": "verify-on-browser",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/verify-on-browser"
+    },
+    {
+      "name": "vocal-chat",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/vocal-chat"
+    },
+    {
+      "name": "voice-agent",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/voice-agent"
+    },
+    {
+      "name": "walkie-talkie",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/walkie-talkie"
+    },
+    {
+      "name": "web-design-guidelines",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/web-design-guidelines"
+    },
+    {
+      "name": "webapp-testing",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/webapp-testing"
+    },
+    {
+      "name": "workflow-optimizer",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/workflow-optimizer"
+    },
+    {
+      "name": "wrapped",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/wrapped"
+    },
+    {
+      "name": "yeet",
+      "path": "/Users/liam/project/github_repositories/All-skills/skills/yeet"
+    }
+  ]
+}

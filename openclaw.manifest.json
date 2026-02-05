@@ -1,0 +1,12 @@
+{
+  "updatedAt": "2026-02-05",
+  "tutorials": {
+    "localRoot": "/Users/liam/project/obsidian-reson/openclaw",
+    "githubRoot": "https://github.com/YPYT1/obsidian-reson/tree/main/openclaw"
+  },
+  "skillsProject": {
+    "localRoot": "/Users/liam/project/github_repositories/All-skills",
+    "skillsDir": "/Users/liam/project/github_repositories/All-skills/skills",
+    "bundledRepoDir": "/Users/liam/project/github_repositories/All-skills/unified-skills-repo"
+  }
+}

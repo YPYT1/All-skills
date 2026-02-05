@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>All-skills 入口页｜录屏展示</title>
+  <meta name="description" content="一个入口：技能项目（All-skills）+ OpenClaw 行业教程（obsidian-reson/openclaw）。" />
+  <style>
+    :root{
+      --bg0:#fbfaf7;
+      --bg1:#f4f1ea;
+      --card:#ffffff;
+      --ink:#191a1b;
+      --muted:#5f646b;
+      --line:#e7e2d7;
+      /* avoid blue/purple */
+      --accent0:#d97706; /* amber */
+      --accent1:#15803d; /* green */
+      --accent2:#92400e; /* warm brown */
+      --shadow: 0 12px 30px rgba(20, 20, 20, .08);
+      --shadow2: 0 6px 16px rgba(20, 20, 20, .08);
+      --radius: 18px;
+      --w: 1120px;
+      --pad: 22px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif;
+      color:var(--ink);
+      background:
+        radial-gradient(1200px 700px at 10% -10%, rgba(217,119,6,.10), transparent 60%),
+        radial-gradient(1200px 700px at 95% 0%, rgba(21,128,61,.10), transparent 55%),
+        linear-gradient(180deg, var(--bg0), var(--bg1));
+      letter-spacing:.2px;
+    }
+    .wrap{max-width:var(--w); margin:0 auto; padding: 28px var(--pad) 80px;}
+    .header{
+      padding: 16px 18px;
+      border:1px solid var(--line);
+      border-radius: 22px;
+      background: rgba(255,255,255,.70);
+      box-shadow: var(--shadow2);
+    }
+    .row{display:flex; align-items:flex-start; justify-content:space-between; gap:14px; flex-wrap:wrap;}
+    .brand{display:flex; gap:10px; align-items:center;}
+    .logo{
+      width:34px; height:34px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, rgba(217,119,6,.22), rgba(21,128,61,.18));
+      border: 1px solid rgba(25,26,27,.08);
+      box-shadow: 0 10px 22px rgba(0,0,0,.10);
+    }
+    h1{font-size:16px; margin:0}
+    .sub{color:var(--muted); font-size:12px; margin-top:2px}
+    .nav{display:flex; gap:10px; flex-wrap:wrap; justify-content:flex-end;}
+    .nav a{font-size:12px; text-decoration:none; padding:8px 10px; border-radius: 12px; border:1px solid var(--line); background: rgba(255,255,255,.60)}
+    .nav a:hover{background: rgba(255,255,255,.92)}
+
+    .hero{padding: 22px 0 6px;}
+    .kicker{display:inline-flex; gap:8px; align-items:center; padding: 8px 12px; border-radius: 999px; border:1px solid var(--line); background: rgba(255,255,255,.7); color: rgba(25,26,27,.78); font-size: 12px;}
+    .dot{width:8px;height:8px;border-radius:99px;background: linear-gradient(135deg, var(--accent0), var(--accent1));}
+    .hero h2{margin: 14px 0 10px; font-size: 40px; line-height:1.08; letter-spacing:-.6px;}
+    .hero p{margin:0; color:var(--muted); font-size:16px; line-height:1.6; max-width: 920px;}
+
+    .grid{display:grid; grid-template-columns: repeat(3, 1fr); gap:14px; margin-top: 16px;}
+    .card{background: rgba(255,255,255,.82); border:1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 16px; min-height: 150px; display:flex; flex-direction:column; gap:10px;}
+    .card h3{margin:0; font-size:14px}
+    .card p{margin:0; color:var(--muted); font-size:12.8px; line-height:1.55}
+    .links{display:flex; gap:10px; flex-wrap:wrap; margin-top:auto}
+    .pill{text-decoration:none; font-size:12px; padding:8px 10px; border-radius: 12px; border:1px solid var(--line); background: rgba(255,255,255,.65)}
+    .pill:hover{background: rgba(255,255,255,.92)}
+
+    .section{margin-top: 24px;}
+    .sectionTitle{display:flex; align-items:flex-end; justify-content:space-between; gap:12px;}
+    .sectionTitle h3{margin:0; font-size:18px}
+    .sectionTitle .hint{color:var(--muted); font-size:12px}
+
+    .note{margin-top: 12px; padding: 14px 16px; border-radius: var(--radius); border:1px dashed rgba(25,26,27,.18); background: rgba(255,255,255,.55); color: rgba(25,26,27,.78); line-height: 1.65; font-size: 13px;}
+
+    .list{display:grid; grid-template-columns: repeat(2, 1fr); gap:14px; margin-top: 14px;}
+
+    code{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 12px;}
+
+    @media (max-width: 980px){
+      .grid{grid-template-columns:1fr}
+      .list{grid-template-columns:1fr}
+      .hero h2{font-size: 32px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <div class="header" id="top">
+      <div class="row">
+        <div class="brand">
+          <div class="logo" aria-hidden="true"></div>
+          <div>
+            <h1>All-skills：一个入口页（录屏展示用）</h1>
+            <div class="sub">放在：<code>/Users/liam/project/github_repositories/All-skills/</code> ｜浅色 ｜非蓝紫 ｜信息直观</div>
+          </div>
+        </div>
+        <div class="nav" aria-label="导航">
+          <a href="#skills">Skills 项目</a>
+          <a href="#tutorials">行业教程</a>
+          <a href="#add">怎么扩展</a>
+        </div>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="kicker"><span class="dot"></span>你录视频只需要打开这一页</div>
+      <h2>不再到处找仓库：<br/>技能在这里，教程也在这里。</h2>
+      <p>
+        这一页只做两件事：
+        1）给你一个“Skills 项目”的统一入口（你自己写的也直接丢进来）；
+        2）给你一个“行业教程库”的统一入口（每个行业怎么用 OpenClaw）。
+      </p>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="sectionTitle">
+        <h3>① Skills 项目入口（All-skills）</h3>
+        <div class="hint">你自己写的：直接放到 skills 目录下面即可，不用再分类。</div>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <h3>我的 Skills（你自己写的放这里）</h3>
+          <p>路径：<code>/Users/liam/project/github_repositories/All-skills/skills/</code></p>
+          <div class="links">
+            <a class="pill" href="./skills/README.md">打开说明</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>已克隆的技能仓库（当前这个项目里带的）</h3>
+          <p>路径：<code>./unified-skills-repo/</code>（你克隆来的东西都放在这个项目下面。）</p>
+          <div class="links">
+            <a class="pill" href="./unified-skills-repo/">打开目录</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>这个入口页的配置</h3>
+          <p>清单文件：<code>openclaw.manifest.json</code>（只记录两条根目录：教程库 + skills 项目）</p>
+          <div class="links">
+            <a class="pill" href="./openclaw.manifest.json">打开清单</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="note">
+        <b>你自己写 Skill 的标准放法：</b>
+        <br/>
+        <code>All-skills/skills/&lt;skill-name&gt;/SKILL.md</code>
+        <br/>
+        <span style="color:rgba(95,100,107,.95)">（脚本放 scripts/，资源放 assets/。你要提交到 GitHub 就把整个 All-skills 仓库 push 即可。）</span>
+      </div>
+    </section>
+
+    <section class="section" id="tutorials">
+      <div class="sectionTitle">
+        <h3>② 行业教程入口（obsidian-reson / openclaw）</h3>
+        <div class="hint">不在 All-skills 里，但你录视频可以从这里一键跳过去。</div>
+      </div>
+
+      <div class="list">
+        <div class="card">
+          <h3>打开行业教程（GitHub）</h3>
+          <p>01～10 行业包都在这里：每个行业都有“深度融合 + 工作流蓝图 + Skills + 风控 + 复盘”。</p>
+          <div class="links">
+            <a class="pill" target="_blank" rel="noreferrer" href="https://github.com/YPYT1/obsidian-reson/tree/main/openclaw">打开 openclaw 目录</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>本地路径（你电脑里）</h3>
+          <p><code>/Users/liam/project/obsidian-reson/openclaw</code></p>
+          <div class="links">
+            <a class="pill" target="_blank" rel="noreferrer" href="https://github.com/YPYT1/obsidian-reson">打开仓库主页</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="note">
+        <b>录屏讲法（最省事）：</b>先讲“Skills 都放 All-skills 这个项目”，再讲“行业怎么用 OpenClaw 在教程库里”，
+        然后按行业目录点进去展示。
+      </div>
+    </section>
+
+    <section class="section" id="add">
+      <div class="sectionTitle">
+        <h3>③ 怎么扩展（以后你再也不用到处找）</h3>
+        <div class="hint">你想加新的 skills 仓库/你自己写 skills，就按下面三条。</div>
+      </div>
+
+      <div class="list">
+        <div class="card">
+          <h3>我要加一个新的 skills 仓库</h3>
+          <p>
+            直接 clone 到：<code>All-skills/</code> 这个项目下面（你现在已经这么做了）。
+            然后在视频里：从入口页点进对应目录即可。
+          </p>
+          <div class="links">
+            <a class="pill" href="#top">回到顶部</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>我要写我自己的 skill（最推荐）</h3>
+          <p>
+            直接新建文件夹：<code>All-skills/skills/&lt;skill-name&gt;/</code>
+            把 <code>SKILL.md</code> 放进去。
+            不用再分类、不用再拆仓库。
+          </p>
+          <div class="links">
+            <a class="pill" href="./skills/README.md">看放法</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="note">
+        <b>你要我继续把这个入口页做得更“自动”也可以：</b>
+        我可以让它自动扫描 <code>All-skills/skills/*/SKILL.md</code>，把每个 skill 直接显示成卡片（带一句话简介）。
+        你如果同意，我下一步就给你加这个“自动扫描 + 自动展示”。
+      </div>
+
+    </section>
+
+  </div>
+
+  <script>
+    // smooth anchor scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', (e) => {
+        const id = a.getAttribute('href');
+        const el = document.querySelector(id);
+        if (!el) return;
+        e.preventDefault();
+        el.scrollIntoView({behavior:'smooth', block:'start'});
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.DS_Store
+**/.DS_Store
+node_modules/
+.env
+.env.*
+**/__pycache__/
+*.log
+
+# local/host-specific
+**/*settings.local.json
+**/*.local.json
+**/.claude/
