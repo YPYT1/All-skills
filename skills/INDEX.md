@@ -1,135 +1,178 @@
-# Skills 清单（All-skills）
+# Skills 目录说明（All-skills）
+你自己的 skills：直接放在 `skills/<skill-name>/SKILL.md`（不需要分类）。
+来自其他仓库/来源的 skills：统一按来源分组：`skills/<repo-name>/<skill-name>/...`。
 
-- 汇总来源：`~/.openclaw/skills` + `/Users/liam/clawd/skills`
-- 冲突处理：如果某个 skill 名称在两处都存在，clawd 版本会放到 `_from_clawd/<name>/` 供你对比
-- 说明：部分仓库会在子目录里才有 `SKILL.md`（例如 `claude.ai/.../SKILL.md`）
+---
+## 你的 skills（不分类）
+- （目前还没有你自己写的 skill；你新建一个文件夹就行）
 
-- ✅ **_from_clawd**（SKILL.md ×29，例如：`_from_clawd/adhd-assistant/SKILL.md`）
-- ✅ **adhd-assistant**（SKILL.md ×1，例如：`adhd-assistant/SKILL.md`）
-- ✅ **advanced-skill-creator**（SKILL.md ×1，例如：`advanced-skill-creator/SKILL.md`）
-- ✅ **agent-builder**（SKILL.md ×1，例如：`agent-builder/SKILL.md`）
-- ✅ **agentarxiv**（SKILL.md ×1，例如：`agentarxiv/SKILL.md`）
-- ✅ **alter-actions**（SKILL.md ×1，例如：`alter-actions/SKILL.md`）
-- ✅ **api-contract-sync-manager**（SKILL.md ×2，例如：`api-contract-sync-manager/SKILL.md`）
-- ✅ **api-integration-specialist**（SKILL.md ×1，例如：`api-integration-specialist/SKILL.md`）
-- ✅ **api-tester**（SKILL.md ×1，例如：`api-tester/SKILL.md`）
-- ✅ **atlas**（SKILL.md ×1，例如：`atlas/SKILL.md`）
-- ✅ **backend-architect**（SKILL.md ×1，例如：`backend-architect/SKILL.md`）
-- ✅ **brave-search**（SKILL.md ×1，例如：`brave-search/SKILL.md`）
-- ✅ **bug-detective**（SKILL.md ×1，例如：`bug-detective/SKILL.md`）
-- ✅ **bug-fix**（SKILL.md ×1，例如：`bug-fix/SKILL.md`）
-- ✅ **claude.ai**（SKILL.md ×1，例如：`claude.ai/vercel-deploy-claimable/SKILL.md`）
-- ✅ **clawdbot-sync**（SKILL.md ×1，例如：`clawdbot-sync/SKILL.md`）
-- ✅ **cloudflare-deploy**（SKILL.md ×1，例如：`cloudflare-deploy/SKILL.md`）
-- ✅ **code-architect**（SKILL.md ×1，例如：`code-architect/SKILL.md`）
-- ✅ **code-review**（SKILL.md ×1，例如：`code-review/SKILL.md`）
-- ✅ **code-review-assistant**（SKILL.md ×1，例如：`code-review-assistant/SKILL.md`）
-- ✅ **code-reviewer**（SKILL.md ×1，例如：`code-reviewer/SKILL.md`）
-- ✅ **codebase-documenter**（SKILL.md ×1，例如：`codebase-documenter/SKILL.md`）
-- ✅ **codex-readiness-integration-test**（SKILL.md ×1，例如：`codex-readiness-integration-test/SKILL.md`）
-- ✅ **codex-readiness-unit-test**（SKILL.md ×1，例如：`codex-readiness-unit-test/SKILL.md`）
-- ✅ **commit**（SKILL.md ×1，例如：`commit/SKILL.md`）
-- ✅ **commit-commands**（SKILL.md ×1，例如：`commit-commands/SKILL.md`）
-- ✅ **compliance-automation-specialist**（SKILL.md ×1，例如：`compliance-automation-specialist/SKILL.md`）
-- ✅ **content-creator**（SKILL.md ×1，例如：`content-creator/SKILL.md`）
-- ✅ **context7-docs-fetcher**（SKILL.md ×1，例如：`context7-docs-fetcher/SKILL.md`）
-- ✅ **create-plan**（SKILL.md ×1，例如：`create-plan/SKILL.md`）
-- ✅ **create-pr**（SKILL.md ×1，例如：`create-pr/SKILL.md`）
-- ✅ **create-pull-request**（SKILL.md ×1，例如：`create-pull-request/SKILL.md`）
-- ✅ **create-worktrees**（SKILL.md ×1，例如：`create-worktrees/SKILL.md`）
-- ✅ **customer-success-manager**（SKILL.md ×1，例如：`customer-success-manager/SKILL.md`）
-- ✅ **data-privacy-engineer**（SKILL.md ×1，例如：`data-privacy-engineer/SKILL.md`）
-- ✅ **debugger**（SKILL.md ×1，例如：`debugger/SKILL.md`）
-- ✅ **desktop-app-dev**（SKILL.md ×1，例如：`desktop-app-dev/SKILL.md`）
-- ✅ **develop-web-game**（SKILL.md ×1，例如：`develop-web-game/SKILL.md`）
-- ✅ **devops-automator**（SKILL.md ×1，例如：`devops-automator/SKILL.md`）
-- ✅ **doc**（SKILL.md ×1，例如：`doc/SKILL.md`）
-- ✅ **docx**（SKILL.md ×1，例如：`docx/SKILL.md`）
-- ✅ **exa**（SKILL.md ×1，例如：`exa/SKILL.md`）
-- ✅ **excalidraw-flowchart**（SKILL.md ×1，例如：`excalidraw-flowchart/SKILL.md`）
-- ✅ **feishu-card**（SKILL.md ×1，例如：`feishu-card/SKILL.md`）
-- ✅ **figma**（SKILL.md ×1，例如：`figma/SKILL.md`）
-- ✅ **figma-implement-design**（SKILL.md ×1，例如：`figma-implement-design/SKILL.md`）
-- ✅ **firecrawl-search**（SKILL.md ×1，例如：`firecrawl-search/SKILL.md`）
-- ✅ **fix-github-issue**（SKILL.md ×1，例如：`fix-github-issue/SKILL.md`）
-- ✅ **fix-issue**（SKILL.md ×1，例如：`fix-issue/SKILL.md`）
-- ✅ **fix-pr**（SKILL.md ×1，例如：`fix-pr/SKILL.md`）
-- ✅ **frontend-design**（SKILL.md ×2，例如：`frontend-design/SKILL.md`）
-- ✅ **frontend-developer**（SKILL.md ×1，例如：`frontend-developer/SKILL.md`）
-- ✅ **generate-api-docs**（SKILL.md ×1，例如：`generate-api-docs/SKILL.md`）
-- ✅ **gh-address-comments**（SKILL.md ×1，例如：`gh-address-comments/SKILL.md`）
-- ✅ **gh-fix-ci**（SKILL.md ×1，例如：`gh-fix-ci/SKILL.md`）
-- ✅ **github-issue-fix**（SKILL.md ×1，例如：`github-issue-fix/SKILL.md`）
-- ✅ **gitlab-address-comments**（SKILL.md ×1，例如：`gitlab-address-comments/SKILL.md`）
-- ✅ **google-search**（SKILL.md ×1，例如：`google-search/SKILL.md`）
-- ✅ **growth-hacker**（SKILL.md ×1，例如：`growth-hacker/SKILL.md`）
-- ✅ **homebrew**（SKILL.md ×1，例如：`homebrew/SKILL.md`）
-- ✅ **imagegen**（SKILL.md ×1，例如：`imagegen/SKILL.md`）
-- ✅ **json-canvas**（SKILL.md ×1，例如：`json-canvas/SKILL.md`）
-- ✅ **jupyter-notebook**（SKILL.md ×1，例如：`jupyter-notebook/SKILL.md`）
-- ✅ **linear**（SKILL.md ×1，例如：`linear/SKILL.md`）
-- ✅ **literature-review**（SKILL.md ×1，例如：`literature-review/SKILL.md`）
-- ✅ **media-backup**（SKILL.md ×1，例如：`media-backup/SKILL.md`）
-- ✅ **netlify-deploy**（SKILL.md ×1，例如：`netlify-deploy/SKILL.md`）
-- ✅ **news-aggregator-skill**（SKILL.md ×1，例如：`news-aggregator-skill/SKILL.md`）
-- ✅ **notion-knowledge-capture**（SKILL.md ×1，例如：`notion-knowledge-capture/SKILL.md`）
-- ✅ **notion-meeting-intelligence**（SKILL.md ×1，例如：`notion-meeting-intelligence/SKILL.md`）
-- ✅ **notion-research-documentation**（SKILL.md ×1，例如：`notion-research-documentation/SKILL.md`）
-- ✅ **notion-spec-to-implementation**（SKILL.md ×1，例如：`notion-spec-to-implementation/SKILL.md`）
-- ✅ **obsidian-bases**（SKILL.md ×1，例如：`obsidian-bases/SKILL.md`）
-- ✅ **obsidian-markdown**（SKILL.md ×1，例如：`obsidian-markdown/SKILL.md`）
-- ✅ **openai-docs**（SKILL.md ×1，例如：`openai-docs/SKILL.md`）
-- ✅ **openapi-expert**（SKILL.md ×1，例如：`openapi-expert/SKILL.md`）
-- ✅ **openclaws**（SKILL.md ×1，例如：`openclaws/SKILL.md`）
-- ✅ **pdf**（SKILL.md ×1，例如：`pdf/SKILL.md`）
-- ✅ **plan**（SKILL.md ×1，例如：`plan/SKILL.md`）
-- ✅ **planning-with-files**（SKILL.md ×1，例如：`planning-with-files/SKILL.md`）
-- ✅ **playwright**（SKILL.md ×1，例如：`playwright/SKILL.md`）
-- ✅ **pptx**（SKILL.md ×1，例如：`pptx/SKILL.md`）
-- ✅ **pr-issue-resolve**（SKILL.md ×1，例如：`pr-issue-resolve/SKILL.md`）
-- ✅ **pr-review**（SKILL.md ×1，例如：`pr-review/SKILL.md`）
-- ✅ **pr-review-toolkit**（SKILL.md ×1，例如：`pr-review-toolkit/SKILL.md`）
-- ✅ **prd-specialist**（SKILL.md ×1，例如：`prd-specialist/SKILL.md`）
-- ✅ **ralph-wiggum**（SKILL.md ×1，例如：`ralph-wiggum/SKILL.md`）
-- ✅ **rapid-prototyper**（SKILL.md ×1，例如：`rapid-prototyper/SKILL.md`）
-- ✅ **react-best-practices**（SKILL.md ×1，例如：`react-best-practices/SKILL.md`）
-- ✅ **react-native-dev**（SKILL.md ×1，例如：`react-native-dev/SKILL.md`）
-- ✅ **reddit-community-builder**（SKILL.md ×1，例如：`reddit-community-builder/SKILL.md`）
-- ✅ **render-deploy**（SKILL.md ×1，例如：`render-deploy/SKILL.md`）
-- ✅ **ringbot**（SKILL.md ×1，例如：`ringbot/SKILL.md`）
-- ✅ **screenshot**（SKILL.md ×1，例如：`screenshot/SKILL.md`）
-- ✅ **search3**（SKILL.md ×1，例如：`search3/SKILL.md`）
-- ✅ **security-best-practices**（SKILL.md ×1，例如：`security-best-practices/SKILL.md`）
-- ✅ **security-ownership-map**（SKILL.md ×1，例如：`security-ownership-map/SKILL.md`）
-- ✅ **security-threat-model**（SKILL.md ×1，例如：`security-threat-model/SKILL.md`）
-- ✅ **senior-backend**（SKILL.md ×1，例如：`senior-backend/SKILL.md`）
-- ✅ **sentry**（SKILL.md ×1，例如：`sentry/SKILL.md`）
-- ✅ **skill-creator**（SKILL.md ×1，例如：`skill-creator/SKILL.md`）
-- ✅ **skill-installer**（SKILL.md ×1，例如：`skill-installer/SKILL.md`）
-- ✅ **sonoscli**（SKILL.md ×1，例如：`sonoscli/SKILL.md`）
-- ✅ **sora**（SKILL.md ×1，例如：`sora/SKILL.md`）
-- ✅ **speech**（SKILL.md ×1，例如：`speech/SKILL.md`）
-- ✅ **spreadsheet**（SKILL.md ×1，例如：`spreadsheet/SKILL.md`）
-- ✅ **supabase-auth**（SKILL.md ×1，例如：`supabase-auth/SKILL.md`）
-- ✅ **supabase-database**（SKILL.md ×1，例如：`supabase-database/SKILL.md`）
-- ✅ **supabase-edge-functions**（SKILL.md ×1，例如：`supabase-edge-functions/SKILL.md`）
-- ✅ **supabase-realtime**（SKILL.md ×1，例如：`supabase-realtime/SKILL.md`）
-- ✅ **supabase-storage**（SKILL.md ×1，例如：`supabase-storage/SKILL.md`）
-- ✅ **transcribe**（SKILL.md ×1，例如：`transcribe/SKILL.md`）
-- ✅ **travel-agent**（SKILL.md ×1，例如：`travel-agent/SKILL.md`）
-- ✅ **ui-designer**（SKILL.md ×1，例如：`ui-designer/SKILL.md`）
-- ✅ **ui-ux-pro-max**（SKILL.md ×1，例如：`ui-ux-pro-max/SKILL.md`）
-- ✅ **ultrathink**（SKILL.md ×1，例如：`ultrathink/SKILL.md`）
-- ✅ **unit-test-generator**（SKILL.md ×1，例如：`unit-test-generator/SKILL.md`）
-- ✅ **ux-researcher**（SKILL.md ×1，例如：`ux-researcher/SKILL.md`）
-- ✅ **vercel-deploy**（SKILL.md ×1，例如：`vercel-deploy/SKILL.md`）
-- ✅ **vercel-react-best-practices**（SKILL.md ×1，例如：`vercel-react-best-practices/SKILL.md`）
-- ✅ **verify-on-browser**（SKILL.md ×1，例如：`verify-on-browser/SKILL.md`）
-- ✅ **vocal-chat**（SKILL.md ×1，例如：`vocal-chat/SKILL.md`）
-- ✅ **voice-agent**（SKILL.md ×1，例如：`voice-agent/SKILL.md`）
-- ✅ **walkie-talkie**（SKILL.md ×1，例如：`walkie-talkie/SKILL.md`）
-- ✅ **web-design-guidelines**（SKILL.md ×1，例如：`web-design-guidelines/SKILL.md`）
-- ✅ **webapp-testing**（SKILL.md ×1，例如：`webapp-testing/SKILL.md`）
-- ✅ **workflow-optimizer**（SKILL.md ×1，例如：`workflow-optimizer/SKILL.md`）
-- ✅ **wrapped**（SKILL.md ×1，例如：`wrapped/SKILL.md`）
-- ✅ **yeet**（SKILL.md ×1，例如：`yeet/SKILL.md`）
+---
+## 按来源分组（仓库/来源）
+### openclaw-installed/
+- 数量：128
+  - ✅ adhd-assistant（SKILL.md ×1，例如：`openclaw-installed/adhd-assistant/SKILL.md`）
+  - ✅ advanced-skill-creator（SKILL.md ×1，例如：`openclaw-installed/advanced-skill-creator/SKILL.md`）
+  - ✅ agent-builder（SKILL.md ×1，例如：`openclaw-installed/agent-builder/SKILL.md`）
+  - ✅ agentarxiv（SKILL.md ×1，例如：`openclaw-installed/agentarxiv/SKILL.md`）
+  - ✅ alter-actions（SKILL.md ×1，例如：`openclaw-installed/alter-actions/SKILL.md`）
+  - ✅ api-contract-sync-manager（SKILL.md ×2，例如：`openclaw-installed/api-contract-sync-manager/SKILL.md`）
+  - ✅ api-integration-specialist（SKILL.md ×1，例如：`openclaw-installed/api-integration-specialist/SKILL.md`）
+  - ✅ api-tester（SKILL.md ×1，例如：`openclaw-installed/api-tester/SKILL.md`）
+  - ✅ atlas（SKILL.md ×1，例如：`openclaw-installed/atlas/SKILL.md`）
+  - ✅ backend-architect（SKILL.md ×1，例如：`openclaw-installed/backend-architect/SKILL.md`）
+  - ✅ brave-search（SKILL.md ×1，例如：`openclaw-installed/brave-search/SKILL.md`）
+  - ✅ bug-detective（SKILL.md ×1，例如：`openclaw-installed/bug-detective/SKILL.md`）
+  - ✅ bug-fix（SKILL.md ×1，例如：`openclaw-installed/bug-fix/SKILL.md`）
+  - ✅ claude.ai（SKILL.md ×1，例如：`openclaw-installed/claude.ai/vercel-deploy-claimable/SKILL.md`）
+  - ✅ clawdbot-sync（SKILL.md ×1，例如：`openclaw-installed/clawdbot-sync/SKILL.md`）
+  - ✅ cloudflare-deploy（SKILL.md ×1，例如：`openclaw-installed/cloudflare-deploy/SKILL.md`）
+  - ✅ code-architect（SKILL.md ×1，例如：`openclaw-installed/code-architect/SKILL.md`）
+  - ✅ code-review（SKILL.md ×1，例如：`openclaw-installed/code-review/SKILL.md`）
+  - ✅ code-review-assistant（SKILL.md ×1，例如：`openclaw-installed/code-review-assistant/SKILL.md`）
+  - ✅ code-reviewer（SKILL.md ×1，例如：`openclaw-installed/code-reviewer/SKILL.md`）
+  - ✅ codebase-documenter（SKILL.md ×1，例如：`openclaw-installed/codebase-documenter/SKILL.md`）
+  - ✅ codex-readiness-integration-test（SKILL.md ×1，例如：`openclaw-installed/codex-readiness-integration-test/SKILL.md`）
+  - ✅ codex-readiness-unit-test（SKILL.md ×1，例如：`openclaw-installed/codex-readiness-unit-test/SKILL.md`）
+  - ✅ commit（SKILL.md ×1，例如：`openclaw-installed/commit/SKILL.md`）
+  - ✅ commit-commands（SKILL.md ×1，例如：`openclaw-installed/commit-commands/SKILL.md`）
+  - ✅ compliance-automation-specialist（SKILL.md ×1，例如：`openclaw-installed/compliance-automation-specialist/SKILL.md`）
+  - ✅ content-creator（SKILL.md ×1，例如：`openclaw-installed/content-creator/SKILL.md`）
+  - ✅ context7-docs-fetcher（SKILL.md ×1，例如：`openclaw-installed/context7-docs-fetcher/SKILL.md`）
+  - ✅ create-plan（SKILL.md ×1，例如：`openclaw-installed/create-plan/SKILL.md`）
+  - ✅ create-pr（SKILL.md ×1，例如：`openclaw-installed/create-pr/SKILL.md`）
+  - ✅ create-pull-request（SKILL.md ×1，例如：`openclaw-installed/create-pull-request/SKILL.md`）
+  - ✅ create-worktrees（SKILL.md ×1，例如：`openclaw-installed/create-worktrees/SKILL.md`）
+  - ✅ customer-success-manager（SKILL.md ×1，例如：`openclaw-installed/customer-success-manager/SKILL.md`）
+  - ✅ data-privacy-engineer（SKILL.md ×1，例如：`openclaw-installed/data-privacy-engineer/SKILL.md`）
+  - ✅ debugger（SKILL.md ×1，例如：`openclaw-installed/debugger/SKILL.md`）
+  - ✅ desktop-app-dev（SKILL.md ×1，例如：`openclaw-installed/desktop-app-dev/SKILL.md`）
+  - ✅ develop-web-game（SKILL.md ×1，例如：`openclaw-installed/develop-web-game/SKILL.md`）
+  - ✅ devops-automator（SKILL.md ×1，例如：`openclaw-installed/devops-automator/SKILL.md`）
+  - ✅ doc（SKILL.md ×1，例如：`openclaw-installed/doc/SKILL.md`）
+  - ✅ docx（SKILL.md ×1，例如：`openclaw-installed/docx/SKILL.md`）
+  - ✅ exa（SKILL.md ×1，例如：`openclaw-installed/exa/SKILL.md`）
+  - ✅ excalidraw-flowchart（SKILL.md ×1，例如：`openclaw-installed/excalidraw-flowchart/SKILL.md`）
+  - ✅ feishu-card（SKILL.md ×1，例如：`openclaw-installed/feishu-card/SKILL.md`）
+  - ✅ figma（SKILL.md ×1，例如：`openclaw-installed/figma/SKILL.md`）
+  - ✅ figma-implement-design（SKILL.md ×1，例如：`openclaw-installed/figma-implement-design/SKILL.md`）
+  - ✅ firecrawl-search（SKILL.md ×1，例如：`openclaw-installed/firecrawl-search/SKILL.md`）
+  - ✅ fix-github-issue（SKILL.md ×1，例如：`openclaw-installed/fix-github-issue/SKILL.md`）
+  - ✅ fix-issue（SKILL.md ×1，例如：`openclaw-installed/fix-issue/SKILL.md`）
+  - ✅ fix-pr（SKILL.md ×1，例如：`openclaw-installed/fix-pr/SKILL.md`）
+  - ✅ frontend-design（SKILL.md ×2，例如：`openclaw-installed/frontend-design/SKILL.md`）
+  - ✅ frontend-developer（SKILL.md ×1，例如：`openclaw-installed/frontend-developer/SKILL.md`）
+  - ✅ generate-api-docs（SKILL.md ×1，例如：`openclaw-installed/generate-api-docs/SKILL.md`）
+  - ✅ gh-address-comments（SKILL.md ×1，例如：`openclaw-installed/gh-address-comments/SKILL.md`）
+  - ✅ gh-fix-ci（SKILL.md ×1，例如：`openclaw-installed/gh-fix-ci/SKILL.md`）
+  - ✅ github-issue-fix（SKILL.md ×1，例如：`openclaw-installed/github-issue-fix/SKILL.md`）
+  - ✅ gitlab-address-comments（SKILL.md ×1，例如：`openclaw-installed/gitlab-address-comments/SKILL.md`）
+  - ✅ google-search（SKILL.md ×1，例如：`openclaw-installed/google-search/SKILL.md`）
+  - ✅ growth-hacker（SKILL.md ×1，例如：`openclaw-installed/growth-hacker/SKILL.md`）
+  - ✅ homebrew（SKILL.md ×1，例如：`openclaw-installed/homebrew/SKILL.md`）
+  - ✅ imagegen（SKILL.md ×1，例如：`openclaw-installed/imagegen/SKILL.md`）
+  - ✅ json-canvas（SKILL.md ×1，例如：`openclaw-installed/json-canvas/SKILL.md`）
+  - ✅ jupyter-notebook（SKILL.md ×1，例如：`openclaw-installed/jupyter-notebook/SKILL.md`）
+  - ✅ linear（SKILL.md ×1，例如：`openclaw-installed/linear/SKILL.md`）
+  - ✅ literature-review（SKILL.md ×1，例如：`openclaw-installed/literature-review/SKILL.md`）
+  - ✅ media-backup（SKILL.md ×1，例如：`openclaw-installed/media-backup/SKILL.md`）
+  - ✅ netlify-deploy（SKILL.md ×1，例如：`openclaw-installed/netlify-deploy/SKILL.md`）
+  - ✅ news-aggregator-skill（SKILL.md ×1，例如：`openclaw-installed/news-aggregator-skill/SKILL.md`）
+  - ✅ notion-knowledge-capture（SKILL.md ×1，例如：`openclaw-installed/notion-knowledge-capture/SKILL.md`）
+  - ✅ notion-meeting-intelligence（SKILL.md ×1，例如：`openclaw-installed/notion-meeting-intelligence/SKILL.md`）
+  - ✅ notion-research-documentation（SKILL.md ×1，例如：`openclaw-installed/notion-research-documentation/SKILL.md`）
+  - ✅ notion-spec-to-implementation（SKILL.md ×1，例如：`openclaw-installed/notion-spec-to-implementation/SKILL.md`）
+  - ✅ obsidian-bases（SKILL.md ×1，例如：`openclaw-installed/obsidian-bases/SKILL.md`）
+  - ✅ obsidian-markdown（SKILL.md ×1，例如：`openclaw-installed/obsidian-markdown/SKILL.md`）
+  - ✅ openai-docs（SKILL.md ×1，例如：`openclaw-installed/openai-docs/SKILL.md`）
+  - ✅ openapi-expert（SKILL.md ×1，例如：`openclaw-installed/openapi-expert/SKILL.md`）
+  - ✅ openclaws（SKILL.md ×1，例如：`openclaw-installed/openclaws/SKILL.md`）
+  - ✅ pdf（SKILL.md ×1，例如：`openclaw-installed/pdf/SKILL.md`）
+  - ✅ plan（SKILL.md ×1，例如：`openclaw-installed/plan/SKILL.md`）
+  - ✅ planning-with-files（SKILL.md ×1，例如：`openclaw-installed/planning-with-files/SKILL.md`）
+  - ✅ playwright（SKILL.md ×1，例如：`openclaw-installed/playwright/SKILL.md`）
+  - ✅ pptx（SKILL.md ×1，例如：`openclaw-installed/pptx/SKILL.md`）
+  - ✅ pr-issue-resolve（SKILL.md ×1，例如：`openclaw-installed/pr-issue-resolve/SKILL.md`）
+  - ✅ pr-review（SKILL.md ×1，例如：`openclaw-installed/pr-review/SKILL.md`）
+  - ✅ pr-review-toolkit（SKILL.md ×1，例如：`openclaw-installed/pr-review-toolkit/SKILL.md`）
+  - ✅ prd-specialist（SKILL.md ×1，例如：`openclaw-installed/prd-specialist/SKILL.md`）
+  - ✅ ralph-wiggum（SKILL.md ×1，例如：`openclaw-installed/ralph-wiggum/SKILL.md`）
+  - ✅ rapid-prototyper（SKILL.md ×1，例如：`openclaw-installed/rapid-prototyper/SKILL.md`）
+  - ✅ react-best-practices（SKILL.md ×1，例如：`openclaw-installed/react-best-practices/SKILL.md`）
+  - ✅ react-native-dev（SKILL.md ×1，例如：`openclaw-installed/react-native-dev/SKILL.md`）
+  - ✅ reddit-community-builder（SKILL.md ×1，例如：`openclaw-installed/reddit-community-builder/SKILL.md`）
+  - ✅ render-deploy（SKILL.md ×1，例如：`openclaw-installed/render-deploy/SKILL.md`）
+  - ✅ ringbot（SKILL.md ×1，例如：`openclaw-installed/ringbot/SKILL.md`）
+  - ✅ screenshot（SKILL.md ×1，例如：`openclaw-installed/screenshot/SKILL.md`）
+  - ✅ search3（SKILL.md ×1，例如：`openclaw-installed/search3/SKILL.md`）
+  - ✅ security-best-practices（SKILL.md ×1，例如：`openclaw-installed/security-best-practices/SKILL.md`）
+  - ✅ security-ownership-map（SKILL.md ×1，例如：`openclaw-installed/security-ownership-map/SKILL.md`）
+  - ✅ security-threat-model（SKILL.md ×1，例如：`openclaw-installed/security-threat-model/SKILL.md`）
+  - ✅ senior-backend（SKILL.md ×1，例如：`openclaw-installed/senior-backend/SKILL.md`）
+  - ✅ sentry（SKILL.md ×1，例如：`openclaw-installed/sentry/SKILL.md`）
+  - ✅ skill-creator（SKILL.md ×1，例如：`openclaw-installed/skill-creator/SKILL.md`）
+  - ✅ skill-installer（SKILL.md ×1，例如：`openclaw-installed/skill-installer/SKILL.md`）
+  - ✅ sonoscli（SKILL.md ×1，例如：`openclaw-installed/sonoscli/SKILL.md`）
+  - ✅ sora（SKILL.md ×1，例如：`openclaw-installed/sora/SKILL.md`）
+  - ✅ speech（SKILL.md ×1，例如：`openclaw-installed/speech/SKILL.md`）
+  - ✅ spreadsheet（SKILL.md ×1，例如：`openclaw-installed/spreadsheet/SKILL.md`）
+  - ✅ supabase-auth（SKILL.md ×1，例如：`openclaw-installed/supabase-auth/SKILL.md`）
+  - ✅ supabase-database（SKILL.md ×1，例如：`openclaw-installed/supabase-database/SKILL.md`）
+  - ✅ supabase-edge-functions（SKILL.md ×1，例如：`openclaw-installed/supabase-edge-functions/SKILL.md`）
+  - ✅ supabase-realtime（SKILL.md ×1，例如：`openclaw-installed/supabase-realtime/SKILL.md`）
+  - ✅ supabase-storage（SKILL.md ×1，例如：`openclaw-installed/supabase-storage/SKILL.md`）
+  - ✅ transcribe（SKILL.md ×1，例如：`openclaw-installed/transcribe/SKILL.md`）
+  - ✅ travel-agent（SKILL.md ×1，例如：`openclaw-installed/travel-agent/SKILL.md`）
+  - ✅ ui-designer（SKILL.md ×1，例如：`openclaw-installed/ui-designer/SKILL.md`）
+  - ✅ ui-ux-pro-max（SKILL.md ×1，例如：`openclaw-installed/ui-ux-pro-max/SKILL.md`）
+  - ✅ ultrathink（SKILL.md ×1，例如：`openclaw-installed/ultrathink/SKILL.md`）
+  - ✅ unit-test-generator（SKILL.md ×1，例如：`openclaw-installed/unit-test-generator/SKILL.md`）
+  - ✅ ux-researcher（SKILL.md ×1，例如：`openclaw-installed/ux-researcher/SKILL.md`）
+  - ✅ vercel-deploy（SKILL.md ×1，例如：`openclaw-installed/vercel-deploy/SKILL.md`）
+  - ✅ vercel-react-best-practices（SKILL.md ×1，例如：`openclaw-installed/vercel-react-best-practices/SKILL.md`）
+  - ✅ verify-on-browser（SKILL.md ×1，例如：`openclaw-installed/verify-on-browser/SKILL.md`）
+  - ✅ vocal-chat（SKILL.md ×1，例如：`openclaw-installed/vocal-chat/SKILL.md`）
+  - ✅ voice-agent（SKILL.md ×1，例如：`openclaw-installed/voice-agent/SKILL.md`）
+  - ✅ walkie-talkie（SKILL.md ×1，例如：`openclaw-installed/walkie-talkie/SKILL.md`）
+  - ✅ web-design-guidelines（SKILL.md ×1，例如：`openclaw-installed/web-design-guidelines/SKILL.md`）
+  - ✅ webapp-testing（SKILL.md ×1，例如：`openclaw-installed/webapp-testing/SKILL.md`）
+  - ✅ workflow-optimizer（SKILL.md ×1，例如：`openclaw-installed/workflow-optimizer/SKILL.md`）
+  - ✅ wrapped（SKILL.md ×1，例如：`openclaw-installed/wrapped/SKILL.md`）
+  - ✅ yeet（SKILL.md ×1，例如：`openclaw-installed/yeet/SKILL.md`）
+
+### clawd-skills/
+- 数量：29
+  - ✅ adhd-assistant（SKILL.md ×1，例如：`clawd-skills/adhd-assistant/SKILL.md`）
+  - ✅ advanced-skill-creator（SKILL.md ×1，例如：`clawd-skills/advanced-skill-creator/SKILL.md`）
+  - ✅ agent-builder（SKILL.md ×1，例如：`clawd-skills/agent-builder/SKILL.md`）
+  - ✅ agentarxiv（SKILL.md ×1，例如：`clawd-skills/agentarxiv/SKILL.md`）
+  - ✅ alter-actions（SKILL.md ×1，例如：`clawd-skills/alter-actions/SKILL.md`）
+  - ✅ brave-search（SKILL.md ×1，例如：`clawd-skills/brave-search/SKILL.md`）
+  - ✅ clawdbot-sync（SKILL.md ×1，例如：`clawd-skills/clawdbot-sync/SKILL.md`）
+  - ✅ docx（SKILL.md ×1，例如：`clawd-skills/docx/SKILL.md`）
+  - ✅ exa（SKILL.md ×1，例如：`clawd-skills/exa/SKILL.md`）
+  - ✅ excalidraw-flowchart（SKILL.md ×1，例如：`clawd-skills/excalidraw-flowchart/SKILL.md`）
+  - ✅ feishu-card（SKILL.md ×1，例如：`clawd-skills/feishu-card/SKILL.md`）
+  - ✅ firecrawl-search（SKILL.md ×1，例如：`clawd-skills/firecrawl-search/SKILL.md`）
+  - ✅ google-search（SKILL.md ×1，例如：`clawd-skills/google-search/SKILL.md`）
+  - ✅ homebrew（SKILL.md ×1，例如：`clawd-skills/homebrew/SKILL.md`）
+  - ✅ literature-review（SKILL.md ×1，例如：`clawd-skills/literature-review/SKILL.md`）
+  - ✅ media-backup（SKILL.md ×1，例如：`clawd-skills/media-backup/SKILL.md`）
+  - ✅ news-aggregator-skill（SKILL.md ×1，例如：`clawd-skills/news-aggregator-skill/SKILL.md`）
+  - ✅ openclaws（SKILL.md ×1，例如：`clawd-skills/openclaws/SKILL.md`）
+  - ✅ ringbot（SKILL.md ×1，例如：`clawd-skills/ringbot/SKILL.md`）
+  - ✅ senior-backend（SKILL.md ×1，例如：`clawd-skills/senior-backend/SKILL.md`）
+  - ✅ skill-creator（SKILL.md ×1，例如：`clawd-skills/skill-creator/SKILL.md`）
+  - ✅ sonoscli（SKILL.md ×1，例如：`clawd-skills/sonoscli/SKILL.md`）
+  - ✅ travel-agent（SKILL.md ×1，例如：`clawd-skills/travel-agent/SKILL.md`）
+  - ✅ ui-ux-pro-max（SKILL.md ×1，例如：`clawd-skills/ui-ux-pro-max/SKILL.md`）
+  - ✅ vercel-react-best-practices（SKILL.md ×1，例如：`clawd-skills/vercel-react-best-practices/SKILL.md`）
+  - ✅ verify-on-browser（SKILL.md ×1，例如：`clawd-skills/verify-on-browser/SKILL.md`）
+  - ✅ vocal-chat（SKILL.md ×1，例如：`clawd-skills/vocal-chat/SKILL.md`）
+  - ✅ voice-agent（SKILL.md ×1，例如：`clawd-skills/voice-agent/SKILL.md`）
+  - ✅ walkie-talkie（SKILL.md ×1，例如：`clawd-skills/walkie-talkie/SKILL.md`）
+
+### openclaw-system/
+- 数量：2
+  - ✅ skill-creator（SKILL.md ×1，例如：`openclaw-system/skill-creator/SKILL.md`）
+  - ✅ skill-installer（SKILL.md ×1，例如：`openclaw-system/skill-installer/SKILL.md`）
+
