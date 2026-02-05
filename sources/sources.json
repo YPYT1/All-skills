@@ -1,63 +1,65 @@
 {
-  "version": 1,
+  "version": 2,
   "sources": [
     {
-      "id": "composio-awesome-claude-skills",
+      "id": "ComposioHQ/awesome-claude-skills",
       "repo": "https://github.com/ComposioHQ/awesome-claude-skills.git",
-      "path": "."
+      "path": ".",
+      "dest": { "repoName": "awesome-claude-skills", "category": "root" }
     },
     {
-      "id": "obra-superpowers-skills",
+      "id": "obra/superpowers:skills",
       "repo": "https://github.com/obra/superpowers.git",
-      "ref": "main",
-      "path": "skills"
+      "path": "skills",
+      "dest": { "repoName": "superpowers", "category": "skills" }
     },
     {
-      "id": "kdense-claude-scientific-skills",
+      "id": "K-Dense-AI/claude-scientific-skills:scientific-skills",
       "repo": "https://github.com/K-Dense-AI/claude-scientific-skills.git",
-      "path": "scientific-skills"
+      "path": "scientific-skills",
+      "dest": { "repoName": "claude-scientific-skills", "category": "scientific-skills" }
     },
     {
-      "id": "othman-planning-with-files",
+      "id": "OthmanAdi/planning-with-files",
       "repo": "https://github.com/OthmanAdi/planning-with-files.git",
-      "ref": "main",
-      "path": "."
+      "path": ".",
+      "dest": { "repoName": "planning-with-files", "category": "root" }
     },
     {
-      "id": "anthropics-skills",
+      "id": "anthropics/skills:skills",
       "repo": "https://github.com/anthropics/skills.git",
-      "ref": "main",
-      "path": "skills"
+      "path": "skills",
+      "dest": { "repoName": "anthropics-skills", "category": "skills" }
     },
     {
-      "id": "sickn33-antigravity-awesome-skills",
+      "id": "sickn33/antigravity-awesome-skills:skills",
       "repo": "https://github.com/sickn33/antigravity-awesome-skills.git",
-      "ref": "main",
-      "path": "skills"
+      "path": "skills",
+      "dest": { "repoName": "antigravity-awesome-skills", "category": "skills" }
     },
     {
-      "id": "openai-skills-curated",
+      "id": "openai/skills:.curated",
       "repo": "https://github.com/openai/skills.git",
-      "ref": "main",
-      "path": "skills/.curated"
+      "path": "skills/.curated",
+      "dest": { "repoName": "openai-skills", "category": "curated" }
     },
     {
-      "id": "openai-skills-experimental",
+      "id": "openai/skills:.experimental",
       "repo": "https://github.com/openai/skills.git",
-      "ref": "main",
-      "path": "skills/.experimental"
+      "path": "skills/.experimental",
+      "dest": { "repoName": "openai-skills", "category": "experimental" }
     },
     {
-      "id": "openai-skills-system",
+      "id": "openai/skills:.system",
       "repo": "https://github.com/openai/skills.git",
-      "ref": "main",
-      "path": "skills/.system"
+      "path": "skills/.system",
+      "dest": { "repoName": "openai-skills", "category": "system" }
     },
     {
-      "id": "openclaw-skills",
+      "id": "openclaw/skills:skills",
       "repo": "https://github.com/openclaw/skills.git",
-      "ref": "main",
-      "path": "skills"
+      "path": "skills",
+      "dest": { "repoName": "openclaw-skills", "category": "skills" }
     }
   ]
 }
