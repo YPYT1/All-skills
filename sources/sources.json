@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "composio-awesome-claude-skills",
+      "repo": "https://github.com/ComposioHQ/awesome-claude-skills.git",
+      "path": "."
+    },
+    {
+      "id": "obra-superpowers-skills",
+      "repo": "https://github.com/obra/superpowers.git",
+      "ref": "main",
+      "path": "skills"
+    },
+    {
+      "id": "kdense-claude-scientific-skills",
+      "repo": "https://github.com/K-Dense-AI/claude-scientific-skills.git",
+      "path": "scientific-skills"
+    },
+    {
+      "id": "othman-planning-with-files",
+      "repo": "https://github.com/OthmanAdi/planning-with-files.git",
+      "ref": "main",
+      "path": "."
+    },
+    {
+      "id": "anthropics-skills",
+      "repo": "https://github.com/anthropics/skills.git",
+      "ref": "main",
+      "path": "skills"
+    },
+    {
+      "id": "sickn33-antigravity-awesome-skills",
+      "repo": "https://github.com/sickn33/antigravity-awesome-skills.git",
+      "ref": "main",
+      "path": "skills"
+    },
+    {
+      "id": "openai-skills-curated",
+      "repo": "https://github.com/openai/skills.git",
+      "ref": "main",
+      "path": "skills/.curated"
+    },
+    {
+      "id": "openai-skills-experimental",
+      "repo": "https://github.com/openai/skills.git",
+      "ref": "main",
+      "path": "skills/.experimental"
+    },
+    {
+      "id": "openai-skills-system",
+      "repo": "https://github.com/openai/skills.git",
+      "ref": "main",
+      "path": "skills/.system"
+    },
+    {
+      "id": "openclaw-skills",
+      "repo": "https://github.com/openclaw/skills.git",
+      "ref": "main",
+      "path": "skills"
+    }
+  ]
+}

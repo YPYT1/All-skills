@@ -1,0 +1,11 @@
+{
+  "owner": "agentossoftware",
+  "slug": "agentos-sdk",
+  "displayName": "Agentos Sdk",
+  "latest": {
+    "version": "3.4.0",
+    "publishedAt": 1770223705429,
+    "commit": "https://github.com/clawdbot/skills/commit/2b896ef634876d0e69490dd376aca5361d1356d9"
+  },
+  "history": []
+}

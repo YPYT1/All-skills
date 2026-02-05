@@ -1,178 +1,637 @@
-# Skills 目录说明（All-skills）
-你自己的 skills：直接放在 `skills/<skill-name>/SKILL.md`（不需要分类）。
-来自其他仓库/来源的 skills：统一按来源分组：`skills/<repo-name>/<skill-name>/...`。
+# Skills 清单（All-skills）
 
----
 ## 你的 skills（不分类）
-- （目前还没有你自己写的 skill；你新建一个文件夹就行）
+- （暂无；你直接创建 `skills/<skill-name>/SKILL.md` 即可）
 
 ---
-## 按来源分组（仓库/来源）
-### openclaw-installed/
-- 数量：128
-  - ✅ adhd-assistant（SKILL.md ×1，例如：`openclaw-installed/adhd-assistant/SKILL.md`）
-  - ✅ advanced-skill-creator（SKILL.md ×1，例如：`openclaw-installed/advanced-skill-creator/SKILL.md`）
-  - ✅ agent-builder（SKILL.md ×1，例如：`openclaw-installed/agent-builder/SKILL.md`）
-  - ✅ agentarxiv（SKILL.md ×1，例如：`openclaw-installed/agentarxiv/SKILL.md`）
-  - ✅ alter-actions（SKILL.md ×1，例如：`openclaw-installed/alter-actions/SKILL.md`）
-  - ✅ api-contract-sync-manager（SKILL.md ×2，例如：`openclaw-installed/api-contract-sync-manager/SKILL.md`）
-  - ✅ api-integration-specialist（SKILL.md ×1，例如：`openclaw-installed/api-integration-specialist/SKILL.md`）
-  - ✅ api-tester（SKILL.md ×1，例如：`openclaw-installed/api-tester/SKILL.md`）
-  - ✅ atlas（SKILL.md ×1，例如：`openclaw-installed/atlas/SKILL.md`）
-  - ✅ backend-architect（SKILL.md ×1，例如：`openclaw-installed/backend-architect/SKILL.md`）
-  - ✅ brave-search（SKILL.md ×1，例如：`openclaw-installed/brave-search/SKILL.md`）
-  - ✅ bug-detective（SKILL.md ×1，例如：`openclaw-installed/bug-detective/SKILL.md`）
-  - ✅ bug-fix（SKILL.md ×1，例如：`openclaw-installed/bug-fix/SKILL.md`）
-  - ✅ claude.ai（SKILL.md ×1，例如：`openclaw-installed/claude.ai/vercel-deploy-claimable/SKILL.md`）
-  - ✅ clawdbot-sync（SKILL.md ×1，例如：`openclaw-installed/clawdbot-sync/SKILL.md`）
-  - ✅ cloudflare-deploy（SKILL.md ×1，例如：`openclaw-installed/cloudflare-deploy/SKILL.md`）
-  - ✅ code-architect（SKILL.md ×1，例如：`openclaw-installed/code-architect/SKILL.md`）
-  - ✅ code-review（SKILL.md ×1，例如：`openclaw-installed/code-review/SKILL.md`）
-  - ✅ code-review-assistant（SKILL.md ×1，例如：`openclaw-installed/code-review-assistant/SKILL.md`）
-  - ✅ code-reviewer（SKILL.md ×1，例如：`openclaw-installed/code-reviewer/SKILL.md`）
-  - ✅ codebase-documenter（SKILL.md ×1，例如：`openclaw-installed/codebase-documenter/SKILL.md`）
-  - ✅ codex-readiness-integration-test（SKILL.md ×1，例如：`openclaw-installed/codex-readiness-integration-test/SKILL.md`）
-  - ✅ codex-readiness-unit-test（SKILL.md ×1，例如：`openclaw-installed/codex-readiness-unit-test/SKILL.md`）
-  - ✅ commit（SKILL.md ×1，例如：`openclaw-installed/commit/SKILL.md`）
-  - ✅ commit-commands（SKILL.md ×1，例如：`openclaw-installed/commit-commands/SKILL.md`）
-  - ✅ compliance-automation-specialist（SKILL.md ×1，例如：`openclaw-installed/compliance-automation-specialist/SKILL.md`）
-  - ✅ content-creator（SKILL.md ×1，例如：`openclaw-installed/content-creator/SKILL.md`）
-  - ✅ context7-docs-fetcher（SKILL.md ×1，例如：`openclaw-installed/context7-docs-fetcher/SKILL.md`）
-  - ✅ create-plan（SKILL.md ×1，例如：`openclaw-installed/create-plan/SKILL.md`）
-  - ✅ create-pr（SKILL.md ×1，例如：`openclaw-installed/create-pr/SKILL.md`）
-  - ✅ create-pull-request（SKILL.md ×1，例如：`openclaw-installed/create-pull-request/SKILL.md`）
-  - ✅ create-worktrees（SKILL.md ×1，例如：`openclaw-installed/create-worktrees/SKILL.md`）
-  - ✅ customer-success-manager（SKILL.md ×1，例如：`openclaw-installed/customer-success-manager/SKILL.md`）
-  - ✅ data-privacy-engineer（SKILL.md ×1，例如：`openclaw-installed/data-privacy-engineer/SKILL.md`）
-  - ✅ debugger（SKILL.md ×1，例如：`openclaw-installed/debugger/SKILL.md`）
-  - ✅ desktop-app-dev（SKILL.md ×1，例如：`openclaw-installed/desktop-app-dev/SKILL.md`）
-  - ✅ develop-web-game（SKILL.md ×1，例如：`openclaw-installed/develop-web-game/SKILL.md`）
-  - ✅ devops-automator（SKILL.md ×1，例如：`openclaw-installed/devops-automator/SKILL.md`）
-  - ✅ doc（SKILL.md ×1，例如：`openclaw-installed/doc/SKILL.md`）
-  - ✅ docx（SKILL.md ×1，例如：`openclaw-installed/docx/SKILL.md`）
-  - ✅ exa（SKILL.md ×1，例如：`openclaw-installed/exa/SKILL.md`）
-  - ✅ excalidraw-flowchart（SKILL.md ×1，例如：`openclaw-installed/excalidraw-flowchart/SKILL.md`）
-  - ✅ feishu-card（SKILL.md ×1，例如：`openclaw-installed/feishu-card/SKILL.md`）
-  - ✅ figma（SKILL.md ×1，例如：`openclaw-installed/figma/SKILL.md`）
-  - ✅ figma-implement-design（SKILL.md ×1，例如：`openclaw-installed/figma-implement-design/SKILL.md`）
-  - ✅ firecrawl-search（SKILL.md ×1，例如：`openclaw-installed/firecrawl-search/SKILL.md`）
-  - ✅ fix-github-issue（SKILL.md ×1，例如：`openclaw-installed/fix-github-issue/SKILL.md`）
-  - ✅ fix-issue（SKILL.md ×1，例如：`openclaw-installed/fix-issue/SKILL.md`）
-  - ✅ fix-pr（SKILL.md ×1，例如：`openclaw-installed/fix-pr/SKILL.md`）
-  - ✅ frontend-design（SKILL.md ×2，例如：`openclaw-installed/frontend-design/SKILL.md`）
-  - ✅ frontend-developer（SKILL.md ×1，例如：`openclaw-installed/frontend-developer/SKILL.md`）
-  - ✅ generate-api-docs（SKILL.md ×1，例如：`openclaw-installed/generate-api-docs/SKILL.md`）
-  - ✅ gh-address-comments（SKILL.md ×1，例如：`openclaw-installed/gh-address-comments/SKILL.md`）
-  - ✅ gh-fix-ci（SKILL.md ×1，例如：`openclaw-installed/gh-fix-ci/SKILL.md`）
-  - ✅ github-issue-fix（SKILL.md ×1，例如：`openclaw-installed/github-issue-fix/SKILL.md`）
-  - ✅ gitlab-address-comments（SKILL.md ×1，例如：`openclaw-installed/gitlab-address-comments/SKILL.md`）
-  - ✅ google-search（SKILL.md ×1，例如：`openclaw-installed/google-search/SKILL.md`）
-  - ✅ growth-hacker（SKILL.md ×1，例如：`openclaw-installed/growth-hacker/SKILL.md`）
-  - ✅ homebrew（SKILL.md ×1，例如：`openclaw-installed/homebrew/SKILL.md`）
-  - ✅ imagegen（SKILL.md ×1，例如：`openclaw-installed/imagegen/SKILL.md`）
-  - ✅ json-canvas（SKILL.md ×1，例如：`openclaw-installed/json-canvas/SKILL.md`）
-  - ✅ jupyter-notebook（SKILL.md ×1，例如：`openclaw-installed/jupyter-notebook/SKILL.md`）
-  - ✅ linear（SKILL.md ×1，例如：`openclaw-installed/linear/SKILL.md`）
-  - ✅ literature-review（SKILL.md ×1，例如：`openclaw-installed/literature-review/SKILL.md`）
-  - ✅ media-backup（SKILL.md ×1，例如：`openclaw-installed/media-backup/SKILL.md`）
-  - ✅ netlify-deploy（SKILL.md ×1，例如：`openclaw-installed/netlify-deploy/SKILL.md`）
-  - ✅ news-aggregator-skill（SKILL.md ×1，例如：`openclaw-installed/news-aggregator-skill/SKILL.md`）
-  - ✅ notion-knowledge-capture（SKILL.md ×1，例如：`openclaw-installed/notion-knowledge-capture/SKILL.md`）
-  - ✅ notion-meeting-intelligence（SKILL.md ×1，例如：`openclaw-installed/notion-meeting-intelligence/SKILL.md`）
-  - ✅ notion-research-documentation（SKILL.md ×1，例如：`openclaw-installed/notion-research-documentation/SKILL.md`）
-  - ✅ notion-spec-to-implementation（SKILL.md ×1，例如：`openclaw-installed/notion-spec-to-implementation/SKILL.md`）
-  - ✅ obsidian-bases（SKILL.md ×1，例如：`openclaw-installed/obsidian-bases/SKILL.md`）
-  - ✅ obsidian-markdown（SKILL.md ×1，例如：`openclaw-installed/obsidian-markdown/SKILL.md`）
-  - ✅ openai-docs（SKILL.md ×1，例如：`openclaw-installed/openai-docs/SKILL.md`）
-  - ✅ openapi-expert（SKILL.md ×1，例如：`openclaw-installed/openapi-expert/SKILL.md`）
-  - ✅ openclaws（SKILL.md ×1，例如：`openclaw-installed/openclaws/SKILL.md`）
-  - ✅ pdf（SKILL.md ×1，例如：`openclaw-installed/pdf/SKILL.md`）
-  - ✅ plan（SKILL.md ×1，例如：`openclaw-installed/plan/SKILL.md`）
-  - ✅ planning-with-files（SKILL.md ×1，例如：`openclaw-installed/planning-with-files/SKILL.md`）
-  - ✅ playwright（SKILL.md ×1，例如：`openclaw-installed/playwright/SKILL.md`）
-  - ✅ pptx（SKILL.md ×1，例如：`openclaw-installed/pptx/SKILL.md`）
-  - ✅ pr-issue-resolve（SKILL.md ×1，例如：`openclaw-installed/pr-issue-resolve/SKILL.md`）
-  - ✅ pr-review（SKILL.md ×1，例如：`openclaw-installed/pr-review/SKILL.md`）
-  - ✅ pr-review-toolkit（SKILL.md ×1，例如：`openclaw-installed/pr-review-toolkit/SKILL.md`）
-  - ✅ prd-specialist（SKILL.md ×1，例如：`openclaw-installed/prd-specialist/SKILL.md`）
-  - ✅ ralph-wiggum（SKILL.md ×1，例如：`openclaw-installed/ralph-wiggum/SKILL.md`）
-  - ✅ rapid-prototyper（SKILL.md ×1，例如：`openclaw-installed/rapid-prototyper/SKILL.md`）
-  - ✅ react-best-practices（SKILL.md ×1，例如：`openclaw-installed/react-best-practices/SKILL.md`）
-  - ✅ react-native-dev（SKILL.md ×1，例如：`openclaw-installed/react-native-dev/SKILL.md`）
-  - ✅ reddit-community-builder（SKILL.md ×1，例如：`openclaw-installed/reddit-community-builder/SKILL.md`）
-  - ✅ render-deploy（SKILL.md ×1，例如：`openclaw-installed/render-deploy/SKILL.md`）
-  - ✅ ringbot（SKILL.md ×1，例如：`openclaw-installed/ringbot/SKILL.md`）
-  - ✅ screenshot（SKILL.md ×1，例如：`openclaw-installed/screenshot/SKILL.md`）
-  - ✅ search3（SKILL.md ×1，例如：`openclaw-installed/search3/SKILL.md`）
-  - ✅ security-best-practices（SKILL.md ×1，例如：`openclaw-installed/security-best-practices/SKILL.md`）
-  - ✅ security-ownership-map（SKILL.md ×1，例如：`openclaw-installed/security-ownership-map/SKILL.md`）
-  - ✅ security-threat-model（SKILL.md ×1，例如：`openclaw-installed/security-threat-model/SKILL.md`）
-  - ✅ senior-backend（SKILL.md ×1，例如：`openclaw-installed/senior-backend/SKILL.md`）
-  - ✅ sentry（SKILL.md ×1，例如：`openclaw-installed/sentry/SKILL.md`）
-  - ✅ skill-creator（SKILL.md ×1，例如：`openclaw-installed/skill-creator/SKILL.md`）
-  - ✅ skill-installer（SKILL.md ×1，例如：`openclaw-installed/skill-installer/SKILL.md`）
-  - ✅ sonoscli（SKILL.md ×1，例如：`openclaw-installed/sonoscli/SKILL.md`）
-  - ✅ sora（SKILL.md ×1，例如：`openclaw-installed/sora/SKILL.md`）
-  - ✅ speech（SKILL.md ×1，例如：`openclaw-installed/speech/SKILL.md`）
-  - ✅ spreadsheet（SKILL.md ×1，例如：`openclaw-installed/spreadsheet/SKILL.md`）
-  - ✅ supabase-auth（SKILL.md ×1，例如：`openclaw-installed/supabase-auth/SKILL.md`）
-  - ✅ supabase-database（SKILL.md ×1，例如：`openclaw-installed/supabase-database/SKILL.md`）
-  - ✅ supabase-edge-functions（SKILL.md ×1，例如：`openclaw-installed/supabase-edge-functions/SKILL.md`）
-  - ✅ supabase-realtime（SKILL.md ×1，例如：`openclaw-installed/supabase-realtime/SKILL.md`）
-  - ✅ supabase-storage（SKILL.md ×1，例如：`openclaw-installed/supabase-storage/SKILL.md`）
-  - ✅ transcribe（SKILL.md ×1，例如：`openclaw-installed/transcribe/SKILL.md`）
-  - ✅ travel-agent（SKILL.md ×1，例如：`openclaw-installed/travel-agent/SKILL.md`）
-  - ✅ ui-designer（SKILL.md ×1，例如：`openclaw-installed/ui-designer/SKILL.md`）
-  - ✅ ui-ux-pro-max（SKILL.md ×1，例如：`openclaw-installed/ui-ux-pro-max/SKILL.md`）
-  - ✅ ultrathink（SKILL.md ×1，例如：`openclaw-installed/ultrathink/SKILL.md`）
-  - ✅ unit-test-generator（SKILL.md ×1，例如：`openclaw-installed/unit-test-generator/SKILL.md`）
-  - ✅ ux-researcher（SKILL.md ×1，例如：`openclaw-installed/ux-researcher/SKILL.md`）
-  - ✅ vercel-deploy（SKILL.md ×1，例如：`openclaw-installed/vercel-deploy/SKILL.md`）
-  - ✅ vercel-react-best-practices（SKILL.md ×1，例如：`openclaw-installed/vercel-react-best-practices/SKILL.md`）
-  - ✅ verify-on-browser（SKILL.md ×1，例如：`openclaw-installed/verify-on-browser/SKILL.md`）
-  - ✅ vocal-chat（SKILL.md ×1，例如：`openclaw-installed/vocal-chat/SKILL.md`）
-  - ✅ voice-agent（SKILL.md ×1，例如：`openclaw-installed/voice-agent/SKILL.md`）
-  - ✅ walkie-talkie（SKILL.md ×1，例如：`openclaw-installed/walkie-talkie/SKILL.md`）
-  - ✅ web-design-guidelines（SKILL.md ×1，例如：`openclaw-installed/web-design-guidelines/SKILL.md`）
-  - ✅ webapp-testing（SKILL.md ×1，例如：`openclaw-installed/webapp-testing/SKILL.md`）
-  - ✅ workflow-optimizer（SKILL.md ×1，例如：`openclaw-installed/workflow-optimizer/SKILL.md`）
-  - ✅ wrapped（SKILL.md ×1，例如：`openclaw-installed/wrapped/SKILL.md`）
-  - ✅ yeet（SKILL.md ×1，例如：`openclaw-installed/yeet/SKILL.md`）
+## 同步来源（按 GitHub 仓库分组）
+### composio-awesome-claude-skills/（识别到技能目录：0）
+- ⚠️ 未在该来源路径下识别到 SKILL.md（可能是集合/文档仓库）
 
-### clawd-skills/
-- 数量：29
-  - ✅ adhd-assistant（SKILL.md ×1，例如：`clawd-skills/adhd-assistant/SKILL.md`）
-  - ✅ advanced-skill-creator（SKILL.md ×1，例如：`clawd-skills/advanced-skill-creator/SKILL.md`）
-  - ✅ agent-builder（SKILL.md ×1，例如：`clawd-skills/agent-builder/SKILL.md`）
-  - ✅ agentarxiv（SKILL.md ×1，例如：`clawd-skills/agentarxiv/SKILL.md`）
-  - ✅ alter-actions（SKILL.md ×1，例如：`clawd-skills/alter-actions/SKILL.md`）
-  - ✅ brave-search（SKILL.md ×1，例如：`clawd-skills/brave-search/SKILL.md`）
-  - ✅ clawdbot-sync（SKILL.md ×1，例如：`clawd-skills/clawdbot-sync/SKILL.md`）
-  - ✅ docx（SKILL.md ×1，例如：`clawd-skills/docx/SKILL.md`）
-  - ✅ exa（SKILL.md ×1，例如：`clawd-skills/exa/SKILL.md`）
-  - ✅ excalidraw-flowchart（SKILL.md ×1，例如：`clawd-skills/excalidraw-flowchart/SKILL.md`）
-  - ✅ feishu-card（SKILL.md ×1，例如：`clawd-skills/feishu-card/SKILL.md`）
-  - ✅ firecrawl-search（SKILL.md ×1，例如：`clawd-skills/firecrawl-search/SKILL.md`）
-  - ✅ google-search（SKILL.md ×1，例如：`clawd-skills/google-search/SKILL.md`）
-  - ✅ homebrew（SKILL.md ×1，例如：`clawd-skills/homebrew/SKILL.md`）
-  - ✅ literature-review（SKILL.md ×1，例如：`clawd-skills/literature-review/SKILL.md`）
-  - ✅ media-backup（SKILL.md ×1，例如：`clawd-skills/media-backup/SKILL.md`）
-  - ✅ news-aggregator-skill（SKILL.md ×1，例如：`clawd-skills/news-aggregator-skill/SKILL.md`）
-  - ✅ openclaws（SKILL.md ×1，例如：`clawd-skills/openclaws/SKILL.md`）
-  - ✅ ringbot（SKILL.md ×1，例如：`clawd-skills/ringbot/SKILL.md`）
-  - ✅ senior-backend（SKILL.md ×1，例如：`clawd-skills/senior-backend/SKILL.md`）
-  - ✅ skill-creator（SKILL.md ×1，例如：`clawd-skills/skill-creator/SKILL.md`）
-  - ✅ sonoscli（SKILL.md ×1，例如：`clawd-skills/sonoscli/SKILL.md`）
-  - ✅ travel-agent（SKILL.md ×1，例如：`clawd-skills/travel-agent/SKILL.md`）
-  - ✅ ui-ux-pro-max（SKILL.md ×1，例如：`clawd-skills/ui-ux-pro-max/SKILL.md`）
-  - ✅ vercel-react-best-practices（SKILL.md ×1，例如：`clawd-skills/vercel-react-best-practices/SKILL.md`）
-  - ✅ verify-on-browser（SKILL.md ×1，例如：`clawd-skills/verify-on-browser/SKILL.md`）
-  - ✅ vocal-chat（SKILL.md ×1，例如：`clawd-skills/vocal-chat/SKILL.md`）
-  - ✅ voice-agent（SKILL.md ×1，例如：`clawd-skills/voice-agent/SKILL.md`）
-  - ✅ walkie-talkie（SKILL.md ×1，例如：`clawd-skills/walkie-talkie/SKILL.md`）
+### obra-superpowers-skills/（识别到技能目录：14）
+- ✅ brainstorming
+- ✅ dispatching-parallel-agents
+- ✅ executing-plans
+- ✅ finishing-a-development-branch
+- ✅ receiving-code-review
+- ✅ requesting-code-review
+- ✅ subagent-driven-development
+- ✅ systematic-debugging
+- ✅ test-driven-development
+- ✅ using-git-worktrees
+- ✅ using-superpowers
+- ✅ verification-before-completion
+- ✅ writing-plans
+- ✅ writing-skills
 
-### openclaw-system/
-- 数量：2
-  - ✅ skill-creator（SKILL.md ×1，例如：`openclaw-system/skill-creator/SKILL.md`）
-  - ✅ skill-installer（SKILL.md ×1，例如：`openclaw-system/skill-installer/SKILL.md`）
+### kdense-claude-scientific-skills/（识别到技能目录：141）
+- ✅ adaptyv
+- ✅ aeon
+- ✅ alphafold-database
+- ✅ anndata
+- ✅ arboreto
+- ✅ astropy
+- ✅ benchling-integration
+- ✅ biopython
+- ✅ biorxiv-database
+- ✅ bioservices
+- ✅ brenda-database
+- ✅ cellxgene-census
+- ✅ chembl-database
+- ✅ cirq
+- ✅ citation-management
+- ✅ clinical-decision-support
+- ✅ clinical-reports
+- ✅ clinicaltrials-database
+- ✅ clinpgx-database
+- ✅ clinvar-database
+- ✅ cobrapy
+- ✅ cosmic-database
+- ✅ dask
+- ✅ datacommons-client
+- ✅ datamol
+- ✅ deepchem
+- ✅ deeptools
+- ✅ denario
+- ✅ diffdock
+- ✅ dnanexus-integration
+- ✅ document-skills
+- ✅ drugbank-database
+- ✅ ena-database
+- ✅ ensembl-database
+- ✅ esm
+- ✅ etetoolkit
+- ✅ exploratory-data-analysis
+- ✅ fda-database
+- ✅ flowio
+- ✅ fluidsim
+- ✅ fred-economic-data
+- ✅ gene-database
+- ✅ generate-image
+- ✅ geniml
+- ✅ geo-database
+- ✅ geopandas
+- ✅ get-available-resources
+- ✅ gget
+- ✅ gtars
+- ✅ gwas-database
+- ✅ histolab
+- ✅ hmdb-database
+- ✅ hypogenic
+- ✅ hypothesis-generation
+- ✅ imaging-data-commons
+- ✅ iso-13485-certification
+- ✅ kegg-database
+- ✅ labarchive-integration
+- ✅ lamindb
+- ✅ latchbio-integration
+- ✅ latex-posters
+- ✅ literature-review
+- ✅ market-research-reports
+- ✅ markitdown
+- ✅ matchms
+- ✅ matlab
+- ✅ matplotlib
+- ✅ medchem
+- ✅ metabolomics-workbench-database
+- ✅ modal
+- ✅ molfeat
+- ✅ networkx
+- ✅ neurokit2
+- ✅ neuropixels-analysis
+- ✅ offer-k-dense-web
+- ✅ omero-integration
+- ✅ openalex-database
+- ✅ opentargets-database
+- ✅ opentrons-integration
+- ✅ paper-2-web
+- ✅ pathml
+- ✅ pdb-database
+- ✅ peer-review
+- ✅ pennylane
+- ✅ perplexity-search
+- ✅ plotly
+- ✅ polars
+- ✅ pptx-posters
+- ✅ protocolsio-integration
+- ✅ pubchem-database
+- ✅ pubmed-database
+- ✅ pufferlib
+- ✅ pydeseq2
+- ✅ pydicom
+- ✅ pyhealth
+- ✅ pylabrobot
+- ✅ pymatgen
+- ✅ pymc
+- ✅ pymoo
+- ✅ pyopenms
+- ✅ pysam
+- ✅ pytdc
+- ✅ pytorch-lightning
+- ✅ qiskit
+- ✅ qutip
+- ✅ rdkit
+- ✅ reactome-database
+- ✅ research-grants
+- ✅ research-lookup
+- ✅ rowan
+- ✅ scanpy
+- ✅ scholar-evaluation
+- ✅ scientific-brainstorming
+- ✅ scientific-critical-thinking
+- ✅ scientific-schematics
+- ✅ scientific-slides
+- ✅ scientific-visualization
+- ✅ scientific-writing
+- ✅ scikit-bio
+- ✅ scikit-learn
+- ✅ scikit-survival
+- ✅ scvi-tools
+- ✅ seaborn
+- ✅ shap
+- ✅ simpy
+- ✅ stable-baselines3
+- ✅ statistical-analysis
+- ✅ statsmodels
+- ✅ string-database
+- ✅ sympy
+- ✅ torch_geometric
+- ✅ torchdrug
+- ✅ transformers
+- ✅ treatment-plans
+- ✅ umap-learn
+- ✅ uniprot-database
+- ✅ uspto-database
+- ✅ vaex
+- ✅ venue-templates
+- ✅ zarr-python
+- ✅ zinc-database
+
+### othman-planning-with-files/（识别到技能目录：0）
+- ⚠️ 未在该来源路径下识别到 SKILL.md（可能是集合/文档仓库）
+
+### anthropics-skills/（识别到技能目录：16）
+- ✅ algorithmic-art
+- ✅ brand-guidelines
+- ✅ canvas-design
+- ✅ doc-coauthoring
+- ✅ docx
+- ✅ frontend-design
+- ✅ internal-comms
+- ✅ mcp-builder
+- ✅ pdf
+- ✅ pptx
+- ✅ skill-creator
+- ✅ slack-gif-creator
+- ✅ theme-factory
+- ✅ web-artifacts-builder
+- ✅ webapp-testing
+- ✅ xlsx
+
+### sickn33-antigravity-awesome-skills/（识别到技能目录：627）
+- ✅ 3d-web-experience
+- ✅ ab-test-setup
+- ✅ accessibility-compliance-accessibility-audit
+- ✅ active-directory-attacks
+- ✅ address-github-comments
+- ✅ agent-evaluation
+- ✅ agent-manager-skill
+- ✅ agent-memory-mcp
+- ✅ agent-memory-systems
+- ✅ agent-orchestration-improve-agent
+- ✅ agent-orchestration-multi-agent-optimize
+- ✅ agent-tool-builder
+- ✅ ai-agents-architect
+- ✅ ai-engineer
+- ✅ ai-product
+- ✅ ai-wrapper-product
+- ✅ airflow-dag-patterns
+- ✅ algolia-search
+- ✅ algorithmic-art
+- ✅ analytics-tracking
+- ✅ angular
+- ✅ angular-best-practices
+- ✅ angular-migration
+- ✅ angular-state-management
+- ✅ angular-ui-patterns
+- ✅ anti-reversing-techniques
+- ✅ api-design-principles
+- ✅ api-documentation-generator
+- ✅ api-documenter
+- ✅ api-fuzzing-bug-bounty
+- ✅ api-patterns
+- ✅ api-security-best-practices
+- ✅ api-testing-observability-api-mock
+- ✅ app-builder
+- ✅ app-store-optimization
+- ✅ application-performance-performance-optimization
+- ✅ architect-review
+- ✅ architecture
+- ✅ architecture-decision-records
+- ✅ architecture-patterns
+- ✅ arm-cortex-expert
+- ✅ async-python-patterns
+- ✅ attack-tree-construction
+- ✅ audio-transcriber
+- ✅ auth-implementation-patterns
+- ✅ automate-whatsapp
+- ✅ autonomous-agent-patterns
+- ✅ autonomous-agents
+- ✅ avalonia-layout-zafiro
+- ✅ avalonia-viewmodels-zafiro
+- ✅ avalonia-zafiro-development
+- ✅ aws-penetration-testing
+- ✅ aws-serverless
+- ✅ aws-skills
+- ✅ azure-functions
+- ✅ backend-architect
+- ✅ backend-dev-guidelines
+- ✅ backend-development-feature-development
+- ✅ backend-security-coder
+- ✅ backtesting-frameworks
+- ✅ bash-defensive-patterns
+- ✅ bash-linux
+- ✅ bash-pro
+- ✅ bats-testing-patterns
+- ✅ bazel-build-optimization
+- ✅ beautiful-prose
+- ✅ behavioral-modes
+- ✅ billing-automation
+- ✅ binary-analysis-patterns
+- ✅ blockchain-developer
+- ✅ blockrun
+- ✅ brainstorming
+- ✅ brand-guidelines-anthropic
+- ✅ brand-guidelines-community
+- ✅ broken-authentication
+- ✅ browser-automation
+- ✅ browser-extension-builder
+- ✅ bullmq-specialist
+- ✅ bun-development
+- ✅ burp-suite-testing
+- ✅ business-analyst
+- ✅ busybox-on-windows
+- ✅ c-pro
+- ✅ c4-architecture-c4-architecture
+- ✅ c4-code
+- ✅ c4-component
+- ✅ c4-container
+- ✅ c4-context
+- ✅ canvas-design
+- ✅ cc-skill-backend-patterns
+- ✅ cc-skill-clickhouse-io
+- ✅ cc-skill-coding-standards
+- ✅ cc-skill-continuous-learning
+- ✅ cc-skill-frontend-patterns
+- ✅ cc-skill-project-guidelines-example
+- ✅ cc-skill-security-review
+- ✅ cc-skill-strategic-compact
+- ✅ changelog-automation
+- ✅ cicd-automation-workflow-automate
+- ✅ clarity-gate
+- ✅ claude-ally-health
+- ✅ claude-code-guide
+- ✅ claude-d3js-skill
+- ✅ claude-scientific-skills
+- ✅ claude-speed-reader
+- ✅ claude-win11-speckit-update-skill
+- ✅ clean-code
+- ✅ clerk-auth
+- ✅ cloud-architect
+- ✅ cloud-penetration-testing
+- ✅ code-documentation-code-explain
+- ✅ code-documentation-doc-generate
+- ✅ code-refactoring-context-restore
+- ✅ code-refactoring-refactor-clean
+- ✅ code-refactoring-tech-debt
+- ✅ code-review-ai-ai-review
+- ✅ code-review-checklist
+- ✅ code-review-excellence
+- ✅ code-reviewer
+- ✅ codebase-cleanup-deps-audit
+- ✅ codebase-cleanup-refactor-clean
+- ✅ codebase-cleanup-tech-debt
+- ✅ codex-review
+- ✅ commit
+- ✅ competitive-landscape
+- ✅ competitor-alternatives
+- ✅ comprehensive-review-full-review
+- ✅ comprehensive-review-pr-enhance
+- ✅ computer-use-agents
+- ✅ computer-vision-expert
+- ✅ concise-planning
+- ✅ conductor-implement
+- ✅ conductor-manage
+- ✅ conductor-new-track
+- ✅ conductor-revert
+- ✅ conductor-setup
+- ✅ conductor-status
+- ✅ conductor-validator
+- ✅ content-creator
+- ✅ content-marketer
+- ✅ context-compression
+- ✅ context-degradation
+- ✅ context-driven-development
+- ✅ context-fundamentals
+- ✅ context-management-context-restore
+- ✅ context-management-context-save
+- ✅ context-manager
+- ✅ context-optimization
+- ✅ context-window-management
+- ✅ context7-auto-research
+- ✅ conversation-memory
+- ✅ copy-editing
+- ✅ copywriting
+- ✅ core-components
+- ✅ cost-optimization
+- ✅ cpp-pro
+- ✅ cqrs-implementation
+- ✅ create-pr
+- ✅ crewai
+- ✅ csharp-pro
+- ✅ culture-index
+- ✅ customer-support
+- ✅ daily-news-report
+- ✅ data-engineer
+- ✅ data-engineering-data-driven-feature
+- ✅ data-engineering-data-pipeline
+- ✅ data-quality-frameworks
+- ✅ data-scientist
+- ✅ data-storytelling
+- ✅ database-admin
+- ✅ database-architect
+- ✅ database-cloud-optimization-cost-optimize
+- ✅ database-design
+- ✅ database-migration
+- ✅ database-migrations-migration-observability
+- ✅ database-migrations-sql-migrations
+- ✅ database-optimizer
+- ✅ dbt-transformation-patterns
+- ✅ debugger
+- ✅ debugging-strategies
+- ✅ debugging-toolkit-smart-debug
+- ✅ deep-research
+- ✅ defi-protocol-templates
+- ✅ dependency-management-deps-audit
+- ✅ dependency-upgrade
+- ✅ deployment-engineer
+- ✅ deployment-pipeline-design
+- ✅ deployment-procedures
+- ✅ deployment-validation-config-validate
+- ✅ design-md
+- ✅ design-orchestration
+- ✅ devops-troubleshooter
+- ✅ discord-bot-architect
+- ✅ dispatching-parallel-agents
+- ✅ distributed-debugging-debug-trace
+- ✅ distributed-tracing
+- ✅ django-pro
+- ✅ doc-coauthoring
+- ✅ docker-expert
+- ✅ docs-architect
+
+### openai-skills-curated/（识别到技能目录：30）
+- ✅ cloudflare-deploy
+- ✅ develop-web-game
+- ✅ doc
+- ✅ figma
+- ✅ figma-implement-design
+- ✅ gh-address-comments
+- ✅ gh-fix-ci
+- ✅ imagegen
+- ✅ jupyter-notebook
+- ✅ linear
+- ✅ netlify-deploy
+- ✅ notion-knowledge-capture
+- ✅ notion-meeting-intelligence
+- ✅ notion-research-documentation
+- ✅ notion-spec-to-implementation
+- ✅ openai-docs
+- ✅ pdf
+- ✅ playwright
+- ✅ render-deploy
+- ✅ screenshot
+- ✅ security-best-practices
+- ✅ security-ownership-map
+- ✅ security-threat-model
+- ✅ sentry
+- ✅ sora
+- ✅ speech
+- ✅ spreadsheet
+- ✅ transcribe
+- ✅ vercel-deploy
+- ✅ yeet
+
+### openai-skills-experimental/（识别到技能目录：5）
+- ✅ codex-readiness-integration-test
+- ✅ codex-readiness-unit-test
+- ✅ create-plan
+- ✅ gitlab-address-comments
+- ✅ wrapped
+
+### openai-skills-system/（识别到技能目录：2）
+- ✅ skill-creator
+- ✅ skill-installer
+
+### openclaw-skills/（识别到技能目录：1865）
+- ✅ 0xadamsu
+- ✅ 0xbreadguy
+- ✅ 0xdaxiongya
+- ✅ 0xm1kr
+- ✅ 0xmevdad
+- ✅ 0xmythril
+- ✅ 0xnb-dev
+- ✅ 0xreisearch
+- ✅ 0xrikt
+- ✅ 0xsolace
+- ✅ 0xterrybit
+- ✅ 0xzk-lucas
+- ✅ 10e9928a
+- ✅ 1lystore
+- ✅ 247arjun
+- ✅ 26medias
+- ✅ 2mawi2
+- ✅ 362224222
+- ✅ 4xiomdev
+- ✅ 5hanth
+- ✅ 801c07
+- ✅ 88kev
+- ✅ 8claw
+- ✅ a-anand-91119
+- ✅ aamish99
+- ✅ aaronchartier
+- ✅ aaronfrancis635
+- ✅ aaronjmars
+- ✅ aaronn
+- ✅ aaronxx
+- ✅ aatmaan1
+- ✅ abakermi
+- ✅ abdhilabs
+- ✅ abe238
+- ✅ abgohel
+- ✅ abhi152003
+- ✅ abhinavjp
+- ✅ abhishek-official1
+- ✅ abishekdharshan
+- ✅ abk234
+- ✅ abrahamventura
+- ✅ abtdomain
+- ✅ acastellana
+- ✅ ad2546
+- ✅ adamjsturrock
+- ✅ adamkristopher
+- ✅ adamsardo
+- ✅ adarshdigievo
+- ✅ adarshmishra07
+- ✅ adboio
+- ✅ adebayoabdushaheed-a11y
+- ✅ adinvadim
+- ✅ aditya4206360-prog
+- ✅ adlai88
+- ✅ administratorfung
+- ✅ adolago
+- ✅ adrianmiller99
+- ✅ adunne09
+- ✅ aerialcombat
+- ✅ afajohn
+- ✅ afalk42
+- ✅ agentandbot-design
+- ✅ agentossoftware
+- ✅ agmmnn
+- ✅ ahmedshahhatal
+- ✅ ahmedthegeek
+- ✅ ahmetsemsettinozdemirden
+- ✅ aholake
+- ✅ ahsanatha
+- ✅ ahump20
+- ✅ aiasisbot61
+- ✅ aidanthebandit
+- ✅ ainekomacx
+- ✅ aisa-one
+- ✅ ajanraj
+- ✅ ajarmoszuk
+- ✅ ajmwagar
+- ✅ ajstafford
+- ✅ ak-khalis
+- ✅ akdeepankar
+- ✅ akegaviar
+- ✅ akellacom
+- ✅ akhil-naidu
+- ✅ akshat-mishra101
+- ✅ akshatgada
+- ✅ alaa-eddine
+- ✅ albert-mr
+- ✅ albertnjcn
+- ✅ alex-indi
+- ✅ alexander-spring
+- ✅ alexanys
+- ✅ alexerm
+- ✅ alexrudloff
+- ✅ alexunitario-sketch
+- ✅ alfrescian
+- ✅ alirezarezvani
+- ✅ alladin0809
+- ✅ allen566
+- ✅ alonw0
+- ✅ alonx2
+- ✅ alopez3006
+- ✅ alphafactor
+- ✅ alslrl
+- ✅ aluvia-connectivity
+- ✅ alvarobcmed
+- ✅ aly-joseph
+- ✅ am-will
+- ✅ amanbhandula
+- ✅ amangarg1999
+- ✅ amar1432
+- ✅ amascia-gg
+- ✅ amirbrooks
+- ✅ amirmabhout
+- ✅ amoghacloud
+- ✅ amoghpurohit
+- ✅ amogower
+- ✅ ampedfinance
+- ✅ amreahmed
+- ✅ amruthpillai
+- ✅ amstko
+- ✅ anajuliabit
+- ✅ anandrathnas
+- ✅ anandvc
+- ✅ andreisuslov
+- ✅ andreolf
+- ✅ andretuta
+- ✅ andrewbouras
+- ✅ andrewdmwalker
+- ✅ andrewjiang
+- ✅ andreyz
+- ✅ andy-t-wang
+- ✅ andybold
+- ✅ andyed
+- ✅ andywilliams
+- ✅ andywong418
+- ✅ anichikage
+- ✅ anishhegde
+- ✅ anishtr4
+- ✅ anjieyang
+- ✅ anjor
+- ✅ anneschuth
+- ✅ annettemekuro30
+- ✅ anscg
+- ✅ anshumanbh
+- ✅ ansonfreeman
+- ✅ antefex
+- ✅ antgly
+- ✅ anthonyfrancis
+- ✅ antibitcoin
+- ✅ anton-roos
+- ✅ antoniocirclemind
+- ✅ anwitch
+- ✅ apatki1996
+- ✅ apekshik
+- ✅ apollo1234
+- ✅ apollostreetcompany
+- ✅ apuryear
+- ✅ araa47
+- ✅ arakichanxd
+- ✅ aranej
+- ✅ arc-claw-bot
+- ✅ architect-sis
+- ✅ arein
+- ✅ arekqq
+- ✅ aricus
+- ✅ arisylafeta
+- ✅ arkaydeus
+- ✅ arlanrakh
+- ✅ arnarsson
+- ✅ aronchick
+- ✅ artur-zhdan
+- ✅ artyomx33
+- ✅ arun-8687
+- ✅ arvorco
+- ✅ asaphko
+- ✅ ascendswang
+- ✅ ashirbadgudu
+- ✅ ashrf-in
+- ✅ ashutosh887
+- ✅ ashwaq06
+- ✅ ashwingupy
+- ✅ asif2bd
+- ✅ aslaep123
+- ✅ asleep123
+- ✅ assassin808
+- ✅ asteinberger
+- ✅ astinz
+- ✅ aszelem
+- ✅ atakanermis
+- ✅ atefr
+- ✅ atlas-secint
+- ✅ atomtanstudio
+- ✅ attn-bot
+- ✅ audsmith28
+- ✅ authensor
+- ✅ autogame-17
+- ✅ avatarneil
+- ✅ avimak
+- ✅ aviv4339
+- ✅ awaaate
 

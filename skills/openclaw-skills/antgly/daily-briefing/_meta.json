@@ -1,0 +1,11 @@
+{
+  "owner": "antgly",
+  "slug": "daily-briefing",
+  "displayName": "Daily Briefing",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770227716977,
+    "commit": "https://github.com/clawdbot/skills/commit/997d91d208825b6a5e7068267d644ebc87d632cb"
+  },
+  "history": []
+}

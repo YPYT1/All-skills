@@ -1,0 +1,39 @@
+name: Sync upstream skills
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Sync upstream sources (sparse checkout + rebuild skills/)
+        run: |
+          bash scripts/sync_sources.sh
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "all-skills-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git add -A
+          git commit -m "chore(sync): update upstream skills"
+          git push

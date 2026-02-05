@@ -1,0 +1,11 @@
+{
+  "owner": "qrucio",
+  "slug": "monkeytype-tracker",
+  "displayName": "Monkeytype Tracker and Advisor",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770040656038,
+    "commit": "https://github.com/clawdbot/skills/commit/684b70ece5438f087373419f052d63b94999c7db"
+  },
+  "history": []
+}

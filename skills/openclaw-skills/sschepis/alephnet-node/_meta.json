@@ -1,0 +1,11 @@
+{
+  "owner": "sschepis",
+  "slug": "alephnet-node",
+  "displayName": "AlephNet Node",
+  "latest": {
+    "version": "1.2.6",
+    "publishedAt": 1770244665866,
+    "commit": "https://github.com/clawdbot/skills/commit/9dad98ecb42d77e04a1c3cfe030ff2880e2912a4"
+  },
+  "history": []
+}

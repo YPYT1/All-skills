@@ -1,0 +1,11 @@
+{
+  "owner": "agentossoftware",
+  "slug": "agentos",
+  "displayName": "Agentos",
+  "latest": {
+    "version": "1.1.1",
+    "publishedAt": 1770220955290,
+    "commit": "https://github.com/clawdbot/skills/commit/0981cc317b4e4cd13d7585453d134b912a4d76c5"
+  },
+  "history": []
+}

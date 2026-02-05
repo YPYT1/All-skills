@@ -1,0 +1,17 @@
+{
+  "owner": "byungkyu",
+  "slug": "xero",
+  "displayName": "Xero",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1770117369462,
+    "commit": "https://github.com/clawdbot/skills/commit/a49c473f9b433117b6cb90d996bfd48972d49796"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1770024065831,
+      "commit": "https://github.com/clawdbot/skills/commit/a45c49debbc9002e8377cff9b347becf1e844d94"
+    }
+  ]
+}

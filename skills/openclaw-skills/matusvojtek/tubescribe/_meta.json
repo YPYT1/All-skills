@@ -1,0 +1,11 @@
+{
+  "owner": "matusvojtek",
+  "slug": "tubescribe",
+  "displayName": "TubeScribe",
+  "latest": {
+    "version": "1.0.3",
+    "publishedAt": 1770245001895,
+    "commit": "https://github.com/clawdbot/skills/commit/5c898183137034bcd14dadb861cccf0c6af024d2"
+  },
+  "history": []
+}
