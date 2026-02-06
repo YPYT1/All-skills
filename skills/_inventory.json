@@ -1,5 +1,5 @@
 {
-  "count": 126,
+  "count": 91,
   "skills": [
     {
       "name": "adhd-assistant",
@@ -58,10 +58,6 @@
       "path": "skills/clawdbot-sync"
     },
     {
-      "name": "cloudflare-deploy",
-      "path": "skills/cloudflare-deploy"
-    },
-    {
       "name": "code-architect",
       "path": "skills/code-architect"
     },
@@ -82,14 +78,6 @@
       "path": "skills/codebase-documenter"
     },
     {
-      "name": "codex-readiness-integration-test",
-      "path": "skills/codex-readiness-integration-test"
-    },
-    {
-      "name": "codex-readiness-unit-test",
-      "path": "skills/codex-readiness-unit-test"
-    },
-    {
       "name": "commit",
       "path": "skills/commit"
     },
@@ -108,10 +96,6 @@
     {
       "name": "context7-docs-fetcher",
       "path": "skills/context7-docs-fetcher"
-    },
-    {
-      "name": "create-plan",
-      "path": "skills/create-plan"
     },
     {
       "name": "create-pr",
@@ -142,16 +126,8 @@
       "path": "skills/desktop-app-dev"
     },
     {
-      "name": "develop-web-game",
-      "path": "skills/develop-web-game"
-    },
-    {
       "name": "devops-automator",
       "path": "skills/devops-automator"
-    },
-    {
-      "name": "doc",
-      "path": "skills/doc"
     },
     {
       "name": "docx",
@@ -168,14 +144,6 @@
     {
       "name": "feishu-card",
       "path": "skills/feishu-card"
-    },
-    {
-      "name": "figma",
-      "path": "skills/figma"
-    },
-    {
-      "name": "figma-implement-design",
-      "path": "skills/figma-implement-design"
     },
     {
       "name": "firecrawl-search",
@@ -206,20 +174,8 @@
       "path": "skills/generate-api-docs"
     },
     {
-      "name": "gh-address-comments",
-      "path": "skills/gh-address-comments"
-    },
-    {
-      "name": "gh-fix-ci",
-      "path": "skills/gh-fix-ci"
-    },
-    {
       "name": "github-issue-fix",
       "path": "skills/github-issue-fix"
-    },
-    {
-      "name": "gitlab-address-comments",
-      "path": "skills/gitlab-address-comments"
     },
     {
       "name": "google-search",
@@ -234,20 +190,8 @@
       "path": "skills/homebrew"
     },
     {
-      "name": "imagegen",
-      "path": "skills/imagegen"
-    },
-    {
       "name": "json-canvas",
       "path": "skills/json-canvas"
-    },
-    {
-      "name": "jupyter-notebook",
-      "path": "skills/jupyter-notebook"
-    },
-    {
-      "name": "linear",
-      "path": "skills/linear"
     },
     {
       "name": "literature-review",
@@ -258,28 +202,8 @@
       "path": "skills/media-backup"
     },
     {
-      "name": "netlify-deploy",
-      "path": "skills/netlify-deploy"
-    },
-    {
       "name": "news-aggregator-skill",
       "path": "skills/news-aggregator-skill"
-    },
-    {
-      "name": "notion-knowledge-capture",
-      "path": "skills/notion-knowledge-capture"
-    },
-    {
-      "name": "notion-meeting-intelligence",
-      "path": "skills/notion-meeting-intelligence"
-    },
-    {
-      "name": "notion-research-documentation",
-      "path": "skills/notion-research-documentation"
-    },
-    {
-      "name": "notion-spec-to-implementation",
-      "path": "skills/notion-spec-to-implementation"
     },
     {
       "name": "obsidian-bases",
@@ -290,10 +214,6 @@
       "path": "skills/obsidian-markdown"
     },
     {
-      "name": "openai-docs",
-      "path": "skills/openai-docs"
-    },
-    {
       "name": "openapi-expert",
       "path": "skills/openapi-expert"
     },
@@ -302,16 +222,8 @@
       "path": "skills/openclaws"
     },
     {
-      "name": "pdf",
-      "path": "skills/pdf"
-    },
-    {
       "name": "plan",
       "path": "skills/plan"
-    },
-    {
-      "name": "playwright",
-      "path": "skills/playwright"
     },
     {
       "name": "pptx",
@@ -354,64 +266,24 @@
       "path": "skills/reddit-community-builder"
     },
     {
-      "name": "render-deploy",
-      "path": "skills/render-deploy"
-    },
-    {
       "name": "ringbot",
       "path": "skills/ringbot"
-    },
-    {
-      "name": "screenshot",
-      "path": "skills/screenshot"
     },
     {
       "name": "search3",
       "path": "skills/search3"
     },
     {
-      "name": "security-best-practices",
-      "path": "skills/security-best-practices"
-    },
-    {
-      "name": "security-ownership-map",
-      "path": "skills/security-ownership-map"
-    },
-    {
-      "name": "security-threat-model",
-      "path": "skills/security-threat-model"
-    },
-    {
       "name": "senior-backend",
       "path": "skills/senior-backend"
-    },
-    {
-      "name": "sentry",
-      "path": "skills/sentry"
     },
     {
       "name": "skill-creator",
       "path": "skills/skill-creator"
     },
     {
-      "name": "skill-installer",
-      "path": "skills/skill-installer"
-    },
-    {
       "name": "sonoscli",
       "path": "skills/sonoscli"
-    },
-    {
-      "name": "sora",
-      "path": "skills/sora"
-    },
-    {
-      "name": "speech",
-      "path": "skills/speech"
-    },
-    {
-      "name": "spreadsheet",
-      "path": "skills/spreadsheet"
     },
     {
       "name": "supabase-auth",
@@ -432,10 +304,6 @@
     {
       "name": "supabase-storage",
       "path": "skills/supabase-storage"
-    },
-    {
-      "name": "transcribe",
-      "path": "skills/transcribe"
     },
     {
       "name": "travel-agent",
@@ -496,14 +364,6 @@
     {
       "name": "workflow-optimizer",
       "path": "skills/workflow-optimizer"
-    },
-    {
-      "name": "wrapped",
-      "path": "skills/wrapped"
-    },
-    {
-      "name": "yeet",
-      "path": "skills/yeet"
     }
   ]
 }

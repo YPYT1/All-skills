@@ -41,19 +41,19 @@
       "id": "openai/skills:.curated",
       "repo": "https://github.com/openai/skills.git",
       "path": "skills/.curated",
-      "dest": { "repoName": "openai-skills" }
+      "dest": { "repoName": "openai-skills", "subdir": ".curated" }
     },
     {
       "id": "openai/skills:.experimental",
       "repo": "https://github.com/openai/skills.git",
       "path": "skills/.experimental",
-      "dest": { "repoName": "openai-skills" }
+      "dest": { "repoName": "openai-skills", "subdir": ".experimental" }
     },
     {
       "id": "openai/skills:.system",
       "repo": "https://github.com/openai/skills.git",
       "path": "skills/.system",
-      "dest": { "repoName": "openai-skills" }
+      "dest": { "repoName": "openai-skills", "subdir": ".system" }
     },
     {
       "id": "openclaw/skills:skills",

@@ -247,6 +247,7 @@ for s in sources:
     path = s.get('path','.')
 
     dest_repo = s['dest']['repoName']
+    dest_subdir = s.get('dest', {}).get('subdir')
 
     local = up_dir/sid.replace('/','__').replace(':','__')
     def get_default_branch(repo_dir: Path) -> str:
@@ -288,6 +289,11 @@ for s in sources:
         raise SystemExit(f"Source path not found for {sid}: {src_root}")
 
     dest_root = out_dir/dest_repo
+    if dest_subdir:
+        sub = Path(dest_subdir)
+        if sub.is_absolute() or '..' in sub.parts:
+            raise SystemExit(f"Invalid dest.subdir for {sid}: {dest_subdir}")
+        dest_root = dest_root / sub
     dest_root.mkdir(parents=True, exist_ok=True)
 
     # copy: each first-level entry under the declared source path -> skills/<repoName>/...
@@ -336,6 +342,22 @@ for repo_name in managed_repo_names:
     rp = out_dir/repo_name
     if not rp.exists():
         continue
+    if repo_name == 'openai-skills' and any(x.is_dir() and x.name.startswith('.') for x in rp.iterdir()):
+        for cat in sorted([x for x in rp.iterdir() if x.is_dir() and x.name.startswith('.')]):
+            cat_skills=[]
+            for p in sorted([x for x in cat.iterdir() if x.is_dir() and not x.name.startswith('.')]):
+                has = any(True for _ in p.rglob('SKILL.md')) or any(True for _ in p.rglob('skill.md'))
+                if has:
+                    cat_skills.append(p.name)
+            lines.append(f'### {repo_name}/{cat.name}/（识别到技能目录：{len(cat_skills)}）\n')
+            if cat_skills:
+                for n in cat_skills[:120]:
+                    lines.append(f'- ✅ {n}\n')
+            else:
+                lines.append('- ⚠️ 未识别到 SKILL.md（可能是集合/文档仓库）\n')
+            lines.append('\n')
+        continue
+
     skills=[]
     for p in sorted([x for x in rp.iterdir() if x.is_dir() and not x.name.startswith('.')]):
         has = any(True for _ in p.rglob('SKILL.md')) or any(True for _ in p.rglob('skill.md'))
@@ -370,4 +392,11 @@ for repo_name in managed_repo_names:
     if tgt.exists():
         redact_tree(tgt)
         verify_tree(tgt)
+
+# optional cleanup: remove cloned repos after sync (matches "clone → copy → delete")
+if os.environ.get('KEEP_UPSTREAM') != '1':
+    try:
+        shutil.rmtree(up_dir)
+    except Exception:
+        pass
 PY

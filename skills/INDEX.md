@@ -15,20 +15,16 @@
 - ✅ **bug-detective**
 - ✅ **bug-fix**
 - ✅ **clawdbot-sync**
-- ✅ **cloudflare-deploy**
 - ✅ **code-architect**
 - ✅ **code-review**
 - ✅ **code-review-assistant**
 - ✅ **code-reviewer**
 - ✅ **codebase-documenter**
-- ✅ **codex-readiness-integration-test**
-- ✅ **codex-readiness-unit-test**
 - ✅ **commit**
 - ✅ **commit-commands**
 - ✅ **compliance-automation-specialist**
 - ✅ **content-creator**
 - ✅ **context7-docs-fetcher**
-- ✅ **create-plan**
 - ✅ **create-pr**
 - ✅ **create-pull-request**
 - ✅ **create-worktrees**
@@ -36,15 +32,11 @@
 - ✅ **data-privacy-engineer**
 - ✅ **debugger**
 - ✅ **desktop-app-dev**
-- ✅ **develop-web-game**
 - ✅ **devops-automator**
-- ✅ **doc**
 - ✅ **docx**
 - ✅ **exa**
 - ✅ **excalidraw-flowchart**
 - ✅ **feishu-card**
-- ✅ **figma**
-- ✅ **figma-implement-design**
 - ✅ **firecrawl-search**
 - ✅ **fix-github-issue**
 - ✅ **fix-issue**
@@ -52,33 +44,19 @@
 - ✅ **frontend-design**
 - ✅ **frontend-developer**
 - ✅ **generate-api-docs**
-- ✅ **gh-address-comments**
-- ✅ **gh-fix-ci**
 - ✅ **github-issue-fix**
-- ✅ **gitlab-address-comments**
 - ✅ **google-search**
 - ✅ **growth-hacker**
 - ✅ **homebrew**
-- ✅ **imagegen**
 - ✅ **json-canvas**
-- ✅ **jupyter-notebook**
-- ✅ **linear**
 - ✅ **literature-review**
 - ✅ **media-backup**
-- ✅ **netlify-deploy**
 - ✅ **news-aggregator-skill**
-- ✅ **notion-knowledge-capture**
-- ✅ **notion-meeting-intelligence**
-- ✅ **notion-research-documentation**
-- ✅ **notion-spec-to-implementation**
 - ✅ **obsidian-bases**
 - ✅ **obsidian-markdown**
-- ✅ **openai-docs**
 - ✅ **openapi-expert**
 - ✅ **openclaws**
-- ✅ **pdf**
 - ✅ **plan**
-- ✅ **playwright**
 - ✅ **pptx**
 - ✅ **pr-issue-resolve**
 - ✅ **pr-review**
@@ -89,27 +67,16 @@
 - ✅ **react-best-practices**
 - ✅ **react-native-dev**
 - ✅ **reddit-community-builder**
-- ✅ **render-deploy**
 - ✅ **ringbot**
-- ✅ **screenshot**
 - ✅ **search3**
-- ✅ **security-best-practices**
-- ✅ **security-ownership-map**
-- ✅ **security-threat-model**
 - ✅ **senior-backend**
-- ✅ **sentry**
 - ✅ **skill-creator**
-- ✅ **skill-installer**
 - ✅ **sonoscli**
-- ✅ **sora**
-- ✅ **speech**
-- ✅ **spreadsheet**
 - ✅ **supabase-auth**
 - ✅ **supabase-database**
 - ✅ **supabase-edge-functions**
 - ✅ **supabase-realtime**
 - ✅ **supabase-storage**
-- ✅ **transcribe**
 - ✅ **travel-agent**
 - ✅ **ui-designer**
 - ✅ **ui-ux-pro-max**
@@ -125,8 +92,6 @@
 - ✅ **web-design-guidelines**
 - ✅ **webapp-testing**
 - ✅ **workflow-optimizer**
-- ✅ **wrapped**
-- ✅ **yeet**
 
 ---
 ## 同步来源（按 GitHub 仓库 → skill）
@@ -395,18 +360,14 @@
 - ✅ scientific-writing
 - ✅ scikit-bio
 
-### openai-skills/（识别到技能目录：37）
+### openai-skills/.curated/（识别到技能目录：30）
 - ✅ cloudflare-deploy
-- ✅ codex-readiness-integration-test
-- ✅ codex-readiness-unit-test
-- ✅ create-plan
 - ✅ develop-web-game
 - ✅ doc
 - ✅ figma
 - ✅ figma-implement-design
 - ✅ gh-address-comments
 - ✅ gh-fix-ci
-- ✅ gitlab-address-comments
 - ✅ imagegen
 - ✅ jupyter-notebook
 - ✅ linear
@@ -424,17 +385,25 @@
 - ✅ security-ownership-map
 - ✅ security-threat-model
 - ✅ sentry
-- ✅ skill-creator
-- ✅ skill-installer
 - ✅ sora
 - ✅ speech
 - ✅ spreadsheet
 - ✅ transcribe
 - ✅ vercel-deploy
-- ✅ wrapped
 - ✅ yeet
 
-### openclaw-skills/（识别到技能目录：2137）
+### openai-skills/.experimental/（识别到技能目录：5）
+- ✅ codex-readiness-integration-test
+- ✅ codex-readiness-unit-test
+- ✅ create-plan
+- ✅ gitlab-address-comments
+- ✅ wrapped
+
+### openai-skills/.system/（识别到技能目录：2）
+- ✅ skill-creator
+- ✅ skill-installer
+
+### openclaw-skills/（识别到技能目录：2152）
 - ✅ 0731coderlee-sudo
 - ✅ 0xadamsu
 - ✅ 0xbreadguy
@@ -545,6 +514,7 @@
 - ✅ albertnjcn
 - ✅ aleph8
 - ✅ alex-indi
+- ✅ alex-tradequo
 - ✅ alexander-morris
 - ✅ alexander-spring
 - ✅ alexanys
@@ -554,7 +524,6 @@
 - ✅ alexunitario-sketch
 - ✅ alfrescian
 - ✅ alirezarezvani
-- ✅ alladin0809
 
 ### planning-with-files/（识别到技能目录：0）
 - ⚠️ 未识别到 SKILL.md（可能是集合/文档仓库）
