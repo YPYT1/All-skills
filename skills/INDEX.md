@@ -1,462 +1,577 @@
 # Skills 清单（All-skills）
 
 ## 你的 skills（不分类）
-- （暂无；你直接创建 `skills/<skill-name>/SKILL.md` 即可）
+- ✅ **adhd-assistant**
+- ✅ **advanced-skill-creator**
+- ✅ **agent-builder**
+- ✅ **agentarxiv**
+- ✅ **alter-actions**
+- ✅ **api-contract-sync-manager**
+- ✅ **api-integration-specialist**
+- ✅ **api-tester**
+- ✅ **atlas**
+- ✅ **backend-architect**
+- ✅ **brave-search**
+- ✅ **bug-detective**
+- ✅ **bug-fix**
+- ✅ **clawdbot-sync**
+- ✅ **cloudflare-deploy**
+- ✅ **code-architect**
+- ✅ **code-review**
+- ✅ **code-review-assistant**
+- ✅ **code-reviewer**
+- ✅ **codebase-documenter**
+- ✅ **codex-readiness-integration-test**
+- ✅ **codex-readiness-unit-test**
+- ✅ **commit**
+- ✅ **commit-commands**
+- ✅ **compliance-automation-specialist**
+- ✅ **content-creator**
+- ✅ **context7-docs-fetcher**
+- ✅ **create-plan**
+- ✅ **create-pr**
+- ✅ **create-pull-request**
+- ✅ **create-worktrees**
+- ✅ **customer-success-manager**
+- ✅ **data-privacy-engineer**
+- ✅ **debugger**
+- ✅ **desktop-app-dev**
+- ✅ **develop-web-game**
+- ✅ **devops-automator**
+- ✅ **doc**
+- ✅ **docx**
+- ✅ **exa**
+- ✅ **excalidraw-flowchart**
+- ✅ **feishu-card**
+- ✅ **figma**
+- ✅ **figma-implement-design**
+- ✅ **firecrawl-search**
+- ✅ **fix-github-issue**
+- ✅ **fix-issue**
+- ✅ **fix-pr**
+- ✅ **frontend-design**
+- ✅ **frontend-developer**
+- ✅ **generate-api-docs**
+- ✅ **gh-address-comments**
+- ✅ **gh-fix-ci**
+- ✅ **github-issue-fix**
+- ✅ **gitlab-address-comments**
+- ✅ **google-search**
+- ✅ **growth-hacker**
+- ✅ **homebrew**
+- ✅ **imagegen**
+- ✅ **json-canvas**
+- ✅ **jupyter-notebook**
+- ✅ **linear**
+- ✅ **literature-review**
+- ✅ **media-backup**
+- ✅ **netlify-deploy**
+- ✅ **news-aggregator-skill**
+- ✅ **notion-knowledge-capture**
+- ✅ **notion-meeting-intelligence**
+- ✅ **notion-research-documentation**
+- ✅ **notion-spec-to-implementation**
+- ✅ **obsidian-bases**
+- ✅ **obsidian-markdown**
+- ✅ **openai-docs**
+- ✅ **openapi-expert**
+- ✅ **openclaws**
+- ✅ **pdf**
+- ✅ **plan**
+- ✅ **playwright**
+- ✅ **pptx**
+- ✅ **pr-issue-resolve**
+- ✅ **pr-review**
+- ✅ **pr-review-toolkit**
+- ✅ **prd-specialist**
+- ✅ **ralph-wiggum**
+- ✅ **rapid-prototyper**
+- ✅ **react-best-practices**
+- ✅ **react-native-dev**
+- ✅ **reddit-community-builder**
+- ✅ **render-deploy**
+- ✅ **ringbot**
+- ✅ **screenshot**
+- ✅ **search3**
+- ✅ **security-best-practices**
+- ✅ **security-ownership-map**
+- ✅ **security-threat-model**
+- ✅ **senior-backend**
+- ✅ **sentry**
+- ✅ **skill-creator**
+- ✅ **skill-installer**
+- ✅ **sonoscli**
+- ✅ **sora**
+- ✅ **speech**
+- ✅ **spreadsheet**
+- ✅ **supabase-auth**
+- ✅ **supabase-database**
+- ✅ **supabase-edge-functions**
+- ✅ **supabase-realtime**
+- ✅ **supabase-storage**
+- ✅ **transcribe**
+- ✅ **travel-agent**
+- ✅ **ui-designer**
+- ✅ **ui-ux-pro-max**
+- ✅ **ultrathink**
+- ✅ **unit-test-generator**
+- ✅ **ux-researcher**
+- ✅ **vercel-deploy**
+- ✅ **vercel-react-best-practices**
+- ✅ **verify-on-browser**
+- ✅ **vocal-chat**
+- ✅ **voice-agent**
+- ✅ **walkie-talkie**
+- ✅ **web-design-guidelines**
+- ✅ **webapp-testing**
+- ✅ **workflow-optimizer**
+- ✅ **wrapped**
+- ✅ **yeet**
 
 ---
-## 同步来源（按 GitHub 仓库 → 分类 → skill）
-### anthropics-skills/
-- 分类：**skills**（识别到技能目录：16）
-  - ✅ algorithmic-art
-  - ✅ brand-guidelines
-  - ✅ canvas-design
-  - ✅ doc-coauthoring
-  - ✅ docx
-  - ✅ frontend-design
-  - ✅ internal-comms
-  - ✅ mcp-builder
-  - ✅ pdf
-  - ✅ pptx
-  - ✅ skill-creator
-  - ✅ slack-gif-creator
-  - ✅ theme-factory
-  - ✅ web-artifacts-builder
-  - ✅ webapp-testing
-  - ✅ xlsx
+## 同步来源（按 GitHub 仓库 → skill）
+### anthropics-skills/（识别到技能目录：16）
+- ✅ algorithmic-art
+- ✅ brand-guidelines
+- ✅ canvas-design
+- ✅ doc-coauthoring
+- ✅ docx
+- ✅ frontend-design
+- ✅ internal-comms
+- ✅ mcp-builder
+- ✅ pdf
+- ✅ pptx
+- ✅ skill-creator
+- ✅ slack-gif-creator
+- ✅ theme-factory
+- ✅ web-artifacts-builder
+- ✅ webapp-testing
+- ✅ xlsx
 
-### antigravity-awesome-skills/
-- 分类：**skills**（识别到技能目录：627）
-  - ✅ 3d-web-experience
-  - ✅ ab-test-setup
-  - ✅ accessibility-compliance-accessibility-audit
-  - ✅ active-directory-attacks
-  - ✅ address-github-comments
-  - ✅ agent-evaluation
-  - ✅ agent-manager-skill
-  - ✅ agent-memory-mcp
-  - ✅ agent-memory-systems
-  - ✅ agent-orchestration-improve-agent
-  - ✅ agent-orchestration-multi-agent-optimize
-  - ✅ agent-tool-builder
-  - ✅ ai-agents-architect
-  - ✅ ai-engineer
-  - ✅ ai-product
-  - ✅ ai-wrapper-product
-  - ✅ airflow-dag-patterns
-  - ✅ algolia-search
-  - ✅ algorithmic-art
-  - ✅ analytics-tracking
-  - ✅ angular
-  - ✅ angular-best-practices
-  - ✅ angular-migration
-  - ✅ angular-state-management
-  - ✅ angular-ui-patterns
-  - ✅ anti-reversing-techniques
-  - ✅ api-design-principles
-  - ✅ api-documentation-generator
-  - ✅ api-documenter
-  - ✅ api-fuzzing-bug-bounty
-  - ✅ api-patterns
-  - ✅ api-security-best-practices
-  - ✅ api-testing-observability-api-mock
-  - ✅ app-builder
-  - ✅ app-store-optimization
-  - ✅ application-performance-performance-optimization
-  - ✅ architect-review
-  - ✅ architecture
-  - ✅ architecture-decision-records
-  - ✅ architecture-patterns
-  - ✅ arm-cortex-expert
-  - ✅ async-python-patterns
-  - ✅ attack-tree-construction
-  - ✅ audio-transcriber
-  - ✅ auth-implementation-patterns
-  - ✅ automate-whatsapp
-  - ✅ autonomous-agent-patterns
-  - ✅ autonomous-agents
-  - ✅ avalonia-layout-zafiro
-  - ✅ avalonia-viewmodels-zafiro
-  - ✅ avalonia-zafiro-development
-  - ✅ aws-penetration-testing
-  - ✅ aws-serverless
-  - ✅ aws-skills
-  - ✅ azure-functions
-  - ✅ backend-architect
-  - ✅ backend-dev-guidelines
-  - ✅ backend-development-feature-development
-  - ✅ backend-security-coder
-  - ✅ backtesting-frameworks
-  - ✅ bash-defensive-patterns
-  - ✅ bash-linux
-  - ✅ bash-pro
-  - ✅ bats-testing-patterns
-  - ✅ bazel-build-optimization
-  - ✅ beautiful-prose
-  - ✅ behavioral-modes
-  - ✅ billing-automation
-  - ✅ binary-analysis-patterns
-  - ✅ blockchain-developer
-  - ✅ blockrun
-  - ✅ brainstorming
-  - ✅ brand-guidelines-anthropic
-  - ✅ brand-guidelines-community
-  - ✅ broken-authentication
-  - ✅ browser-automation
-  - ✅ browser-extension-builder
-  - ✅ bullmq-specialist
-  - ✅ bun-development
-  - ✅ burp-suite-testing
-  - ✅ business-analyst
-  - ✅ busybox-on-windows
-  - ✅ c-pro
-  - ✅ c4-architecture-c4-architecture
-  - ✅ c4-code
-  - ✅ c4-component
-  - ✅ c4-container
-  - ✅ c4-context
-  - ✅ canvas-design
-  - ✅ cc-skill-backend-patterns
-  - ✅ cc-skill-clickhouse-io
-  - ✅ cc-skill-coding-standards
-  - ✅ cc-skill-continuous-learning
-  - ✅ cc-skill-frontend-patterns
-  - ✅ cc-skill-project-guidelines-example
-  - ✅ cc-skill-security-review
-  - ✅ cc-skill-strategic-compact
-  - ✅ changelog-automation
-  - ✅ cicd-automation-workflow-automate
-  - ✅ clarity-gate
-  - ✅ claude-ally-health
-  - ✅ claude-code-guide
-  - ✅ claude-d3js-skill
-  - ✅ claude-scientific-skills
-  - ✅ claude-speed-reader
-  - ✅ claude-win11-speckit-update-skill
-  - ✅ clean-code
-  - ✅ clerk-auth
-  - ✅ cloud-architect
-  - ✅ cloud-penetration-testing
-  - ✅ code-documentation-code-explain
-  - ✅ code-documentation-doc-generate
-  - ✅ code-refactoring-context-restore
-  - ✅ code-refactoring-refactor-clean
-  - ✅ code-refactoring-tech-debt
-  - ✅ code-review-ai-ai-review
-  - ✅ code-review-checklist
-  - ✅ code-review-excellence
-  - ✅ code-reviewer
-  - ✅ codebase-cleanup-deps-audit
+### antigravity-awesome-skills/（识别到技能目录：706）
+- ✅ 3d-web-experience
+- ✅ ab-test-setup
+- ✅ accessibility-compliance-accessibility-audit
+- ✅ active-directory-attacks
+- ✅ activecampaign-automation
+- ✅ address-github-comments
+- ✅ agent-evaluation
+- ✅ agent-manager-skill
+- ✅ agent-memory-mcp
+- ✅ agent-memory-systems
+- ✅ agent-orchestration-improve-agent
+- ✅ agent-orchestration-multi-agent-optimize
+- ✅ agent-tool-builder
+- ✅ ai-agents-architect
+- ✅ ai-engineer
+- ✅ ai-product
+- ✅ ai-wrapper-product
+- ✅ airflow-dag-patterns
+- ✅ airtable-automation
+- ✅ algolia-search
+- ✅ algorithmic-art
+- ✅ amplitude-automation
+- ✅ analytics-tracking
+- ✅ angular
+- ✅ angular-best-practices
+- ✅ angular-migration
+- ✅ angular-state-management
+- ✅ angular-ui-patterns
+- ✅ anti-reversing-techniques
+- ✅ api-design-principles
+- ✅ api-documentation-generator
+- ✅ api-documenter
+- ✅ api-fuzzing-bug-bounty
+- ✅ api-patterns
+- ✅ api-security-best-practices
+- ✅ api-testing-observability-api-mock
+- ✅ app-builder
+- ✅ app-store-optimization
+- ✅ application-performance-performance-optimization
+- ✅ architect-review
+- ✅ architecture
+- ✅ architecture-decision-records
+- ✅ architecture-patterns
+- ✅ arm-cortex-expert
+- ✅ asana-automation
+- ✅ async-python-patterns
+- ✅ attack-tree-construction
+- ✅ audio-transcriber
+- ✅ auth-implementation-patterns
+- ✅ automate-whatsapp
+- ✅ autonomous-agent-patterns
+- ✅ autonomous-agents
+- ✅ avalonia-layout-zafiro
+- ✅ avalonia-viewmodels-zafiro
+- ✅ avalonia-zafiro-development
+- ✅ aws-penetration-testing
+- ✅ aws-serverless
+- ✅ aws-skills
+- ✅ azure-functions
+- ✅ backend-architect
+- ✅ backend-dev-guidelines
+- ✅ backend-development-feature-development
+- ✅ backend-security-coder
+- ✅ backtesting-frameworks
+- ✅ bamboohr-automation
+- ✅ basecamp-automation
+- ✅ bash-defensive-patterns
+- ✅ bash-linux
+- ✅ bash-pro
+- ✅ bats-testing-patterns
+- ✅ bazel-build-optimization
+- ✅ beautiful-prose
+- ✅ behavioral-modes
+- ✅ billing-automation
+- ✅ binary-analysis-patterns
+- ✅ bitbucket-automation
+- ✅ blockchain-developer
+- ✅ blockrun
+- ✅ box-automation
+- ✅ brainstorming
+- ✅ brand-guidelines-anthropic
+- ✅ brand-guidelines-community
+- ✅ brevo-automation
+- ✅ broken-authentication
+- ✅ browser-automation
+- ✅ browser-extension-builder
+- ✅ bullmq-specialist
+- ✅ bun-development
+- ✅ burp-suite-testing
+- ✅ business-analyst
+- ✅ busybox-on-windows
+- ✅ c-pro
+- ✅ c4-architecture-c4-architecture
+- ✅ c4-code
+- ✅ c4-component
+- ✅ c4-container
+- ✅ c4-context
+- ✅ cal-com-automation
+- ✅ calendly-automation
+- ✅ canva-automation
+- ✅ canvas-design
+- ✅ cc-skill-backend-patterns
+- ✅ cc-skill-clickhouse-io
+- ✅ cc-skill-coding-standards
+- ✅ cc-skill-continuous-learning
+- ✅ cc-skill-frontend-patterns
+- ✅ cc-skill-project-guidelines-example
+- ✅ cc-skill-security-review
+- ✅ cc-skill-strategic-compact
+- ✅ changelog-automation
+- ✅ cicd-automation-workflow-automate
+- ✅ circleci-automation
+- ✅ clarity-gate
+- ✅ claude-ally-health
+- ✅ claude-code-guide
+- ✅ claude-d3js-skill
+- ✅ claude-scientific-skills
+- ✅ claude-speed-reader
+- ✅ claude-win11-speckit-update-skill
+- ✅ clean-code
 
-### awesome-claude-skills/
-- 分类：**root**（识别到技能目录：0）
-  - ⚠️ 该分类下未识别到 SKILL.md（可能是集合/文档仓库）
+### awesome-claude-skills/（识别到技能目录：0）
+- ⚠️ 未识别到 SKILL.md（可能是集合/文档仓库）
 
-### claude-scientific-skills/
-- 分类：**scientific-skills**（识别到技能目录：141）
-  - ✅ adaptyv
-  - ✅ aeon
-  - ✅ alphafold-database
-  - ✅ anndata
-  - ✅ arboreto
-  - ✅ astropy
-  - ✅ benchling-integration
-  - ✅ biopython
-  - ✅ biorxiv-database
-  - ✅ bioservices
-  - ✅ brenda-database
-  - ✅ cellxgene-census
-  - ✅ chembl-database
-  - ✅ cirq
-  - ✅ citation-management
-  - ✅ clinical-decision-support
-  - ✅ clinical-reports
-  - ✅ clinicaltrials-database
-  - ✅ clinpgx-database
-  - ✅ clinvar-database
-  - ✅ cobrapy
-  - ✅ cosmic-database
-  - ✅ dask
-  - ✅ datacommons-client
-  - ✅ datamol
-  - ✅ deepchem
-  - ✅ deeptools
-  - ✅ denario
-  - ✅ diffdock
-  - ✅ dnanexus-integration
-  - ✅ document-skills
-  - ✅ drugbank-database
-  - ✅ ena-database
-  - ✅ ensembl-database
-  - ✅ esm
-  - ✅ etetoolkit
-  - ✅ exploratory-data-analysis
-  - ✅ fda-database
-  - ✅ flowio
-  - ✅ fluidsim
-  - ✅ fred-economic-data
-  - ✅ gene-database
-  - ✅ generate-image
-  - ✅ geniml
-  - ✅ geo-database
-  - ✅ geopandas
-  - ✅ get-available-resources
-  - ✅ gget
-  - ✅ gtars
-  - ✅ gwas-database
-  - ✅ histolab
-  - ✅ hmdb-database
-  - ✅ hypogenic
-  - ✅ hypothesis-generation
-  - ✅ imaging-data-commons
-  - ✅ iso-13485-certification
-  - ✅ kegg-database
-  - ✅ labarchive-integration
-  - ✅ lamindb
-  - ✅ latchbio-integration
-  - ✅ latex-posters
-  - ✅ literature-review
-  - ✅ market-research-reports
-  - ✅ markitdown
-  - ✅ matchms
-  - ✅ matlab
-  - ✅ matplotlib
-  - ✅ medchem
-  - ✅ metabolomics-workbench-database
-  - ✅ modal
-  - ✅ molfeat
-  - ✅ networkx
-  - ✅ neurokit2
-  - ✅ neuropixels-analysis
-  - ✅ offer-k-dense-web
-  - ✅ omero-integration
-  - ✅ openalex-database
-  - ✅ opentargets-database
-  - ✅ opentrons-integration
-  - ✅ paper-2-web
-  - ✅ pathml
-  - ✅ pdb-database
-  - ✅ peer-review
-  - ✅ pennylane
-  - ✅ perplexity-search
-  - ✅ plotly
-  - ✅ polars
-  - ✅ pptx-posters
-  - ✅ protocolsio-integration
-  - ✅ pubchem-database
-  - ✅ pubmed-database
-  - ✅ pufferlib
-  - ✅ pydeseq2
-  - ✅ pydicom
-  - ✅ pyhealth
-  - ✅ pylabrobot
-  - ✅ pymatgen
-  - ✅ pymc
-  - ✅ pymoo
-  - ✅ pyopenms
-  - ✅ pysam
-  - ✅ pytdc
-  - ✅ pytorch-lightning
-  - ✅ qiskit
-  - ✅ qutip
-  - ✅ rdkit
-  - ✅ reactome-database
-  - ✅ research-grants
-  - ✅ research-lookup
-  - ✅ rowan
-  - ✅ scanpy
-  - ✅ scholar-evaluation
-  - ✅ scientific-brainstorming
-  - ✅ scientific-critical-thinking
-  - ✅ scientific-schematics
-  - ✅ scientific-slides
-  - ✅ scientific-visualization
-  - ✅ scientific-writing
-  - ✅ scikit-bio
-  - ✅ scikit-learn
+### claude-scientific-skills/（识别到技能目录：142）
+- ✅ adaptyv
+- ✅ aeon
+- ✅ alphafold-database
+- ✅ anndata
+- ✅ arboreto
+- ✅ astropy
+- ✅ benchling-integration
+- ✅ biopython
+- ✅ biorxiv-database
+- ✅ bioservices
+- ✅ brenda-database
+- ✅ cellxgene-census
+- ✅ chembl-database
+- ✅ cirq
+- ✅ citation-management
+- ✅ clinical-decision-support
+- ✅ clinical-reports
+- ✅ clinicaltrials-database
+- ✅ clinpgx-database
+- ✅ clinvar-database
+- ✅ cobrapy
+- ✅ cosmic-database
+- ✅ dask
+- ✅ datacommons-client
+- ✅ datamol
+- ✅ deepchem
+- ✅ deeptools
+- ✅ denario
+- ✅ diffdock
+- ✅ dnanexus-integration
+- ✅ document-skills
+- ✅ drugbank-database
+- ✅ ena-database
+- ✅ ensembl-database
+- ✅ esm
+- ✅ etetoolkit
+- ✅ exploratory-data-analysis
+- ✅ fda-database
+- ✅ flowio
+- ✅ fluidsim
+- ✅ fred-economic-data
+- ✅ gene-database
+- ✅ generate-image
+- ✅ geniml
+- ✅ geo-database
+- ✅ geopandas
+- ✅ get-available-resources
+- ✅ gget
+- ✅ gtars
+- ✅ gwas-database
+- ✅ histolab
+- ✅ hmdb-database
+- ✅ hypogenic
+- ✅ hypothesis-generation
+- ✅ imaging-data-commons
+- ✅ infographics
+- ✅ iso-13485-certification
+- ✅ kegg-database
+- ✅ labarchive-integration
+- ✅ lamindb
+- ✅ latchbio-integration
+- ✅ latex-posters
+- ✅ literature-review
+- ✅ market-research-reports
+- ✅ markitdown
+- ✅ matchms
+- ✅ matlab
+- ✅ matplotlib
+- ✅ medchem
+- ✅ metabolomics-workbench-database
+- ✅ modal
+- ✅ molfeat
+- ✅ networkx
+- ✅ neurokit2
+- ✅ neuropixels-analysis
+- ✅ offer-k-dense-web
+- ✅ omero-integration
+- ✅ openalex-database
+- ✅ opentargets-database
+- ✅ opentrons-integration
+- ✅ paper-2-web
+- ✅ pathml
+- ✅ pdb-database
+- ✅ peer-review
+- ✅ pennylane
+- ✅ perplexity-search
+- ✅ plotly
+- ✅ polars
+- ✅ pptx-posters
+- ✅ protocolsio-integration
+- ✅ pubchem-database
+- ✅ pubmed-database
+- ✅ pufferlib
+- ✅ pydeseq2
+- ✅ pydicom
+- ✅ pyhealth
+- ✅ pylabrobot
+- ✅ pymatgen
+- ✅ pymc
+- ✅ pymoo
+- ✅ pyopenms
+- ✅ pysam
+- ✅ pytdc
+- ✅ pytorch-lightning
+- ✅ qiskit
+- ✅ qutip
+- ✅ rdkit
+- ✅ reactome-database
+- ✅ research-grants
+- ✅ research-lookup
+- ✅ rowan
+- ✅ scanpy
+- ✅ scholar-evaluation
+- ✅ scientific-brainstorming
+- ✅ scientific-critical-thinking
+- ✅ scientific-schematics
+- ✅ scientific-slides
+- ✅ scientific-visualization
+- ✅ scientific-writing
+- ✅ scikit-bio
 
-### openai-skills/
-- 分类：**curated**（识别到技能目录：30）
-  - ✅ cloudflare-deploy
-  - ✅ develop-web-game
-  - ✅ doc
-  - ✅ figma
-  - ✅ figma-implement-design
-  - ✅ gh-address-comments
-  - ✅ gh-fix-ci
-  - ✅ imagegen
-  - ✅ jupyter-notebook
-  - ✅ linear
-  - ✅ netlify-deploy
-  - ✅ notion-knowledge-capture
-  - ✅ notion-meeting-intelligence
-  - ✅ notion-research-documentation
-  - ✅ notion-spec-to-implementation
-  - ✅ openai-docs
-  - ✅ pdf
-  - ✅ playwright
-  - ✅ render-deploy
-  - ✅ screenshot
-  - ✅ security-best-practices
-  - ✅ security-ownership-map
-  - ✅ security-threat-model
-  - ✅ sentry
-  - ✅ sora
-  - ✅ speech
-  - ✅ spreadsheet
-  - ✅ transcribe
-  - ✅ vercel-deploy
-  - ✅ yeet
-- 分类：**experimental**（识别到技能目录：5）
-  - ✅ codex-readiness-integration-test
-  - ✅ codex-readiness-unit-test
-  - ✅ create-plan
-  - ✅ gitlab-address-comments
-  - ✅ wrapped
-- 分类：**system**（识别到技能目录：2）
-  - ✅ skill-creator
-  - ✅ skill-installer
+### openai-skills/（识别到技能目录：37）
+- ✅ cloudflare-deploy
+- ✅ codex-readiness-integration-test
+- ✅ codex-readiness-unit-test
+- ✅ create-plan
+- ✅ develop-web-game
+- ✅ doc
+- ✅ figma
+- ✅ figma-implement-design
+- ✅ gh-address-comments
+- ✅ gh-fix-ci
+- ✅ gitlab-address-comments
+- ✅ imagegen
+- ✅ jupyter-notebook
+- ✅ linear
+- ✅ netlify-deploy
+- ✅ notion-knowledge-capture
+- ✅ notion-meeting-intelligence
+- ✅ notion-research-documentation
+- ✅ notion-spec-to-implementation
+- ✅ openai-docs
+- ✅ pdf
+- ✅ playwright
+- ✅ render-deploy
+- ✅ screenshot
+- ✅ security-best-practices
+- ✅ security-ownership-map
+- ✅ security-threat-model
+- ✅ sentry
+- ✅ skill-creator
+- ✅ skill-installer
+- ✅ sora
+- ✅ speech
+- ✅ spreadsheet
+- ✅ transcribe
+- ✅ vercel-deploy
+- ✅ wrapped
+- ✅ yeet
 
-### openclaw-skills/
-- 分类：**skills**（识别到技能目录：1866）
-  - ✅ 0xadamsu
-  - ✅ 0xbreadguy
-  - ✅ 0xdaxiongya
-  - ✅ 0xm1kr
-  - ✅ 0xmevdad
-  - ✅ 0xmythril
-  - ✅ 0xnb-dev
-  - ✅ 0xreisearch
-  - ✅ 0xrikt
-  - ✅ 0xsolace
-  - ✅ 0xterrybit
-  - ✅ 0xzk-lucas
-  - ✅ 10e9928a
-  - ✅ 1lystore
-  - ✅ 247arjun
-  - ✅ 26medias
-  - ✅ 2mawi2
-  - ✅ 362224222
-  - ✅ 4xiomdev
-  - ✅ 5hanth
-  - ✅ 801c07
-  - ✅ 88kev
-  - ✅ 8claw
-  - ✅ a-anand-91119
-  - ✅ aamish99
-  - ✅ aaronchartier
-  - ✅ aaronfrancis635
-  - ✅ aaronjmars
-  - ✅ aaronn
-  - ✅ aaronxx
-  - ✅ aatmaan1
-  - ✅ abakermi
-  - ✅ abdhilabs
-  - ✅ abe238
-  - ✅ abgohel
-  - ✅ abhi152003
-  - ✅ abhinavjp
-  - ✅ abhishek-official1
-  - ✅ abishekdharshan
-  - ✅ abk234
-  - ✅ abrahamventura
-  - ✅ abtdomain
-  - ✅ acastellana
-  - ✅ ad2546
-  - ✅ adamjsturrock
-  - ✅ adamkristopher
-  - ✅ adamsardo
-  - ✅ adarshdigievo
-  - ✅ adarshmishra07
-  - ✅ adboio
-  - ✅ adebayoabdushaheed-a11y
-  - ✅ adinvadim
-  - ✅ aditya4206360-prog
-  - ✅ adlai88
-  - ✅ administratorfung
-  - ✅ adolago
-  - ✅ adrianmiller99
-  - ✅ adunne09
-  - ✅ aerialcombat
-  - ✅ afajohn
-  - ✅ afalk42
-  - ✅ agentandbot-design
-  - ✅ agentossoftware
-  - ✅ agmmnn
-  - ✅ ahmedshahhatal
-  - ✅ ahmedthegeek
-  - ✅ ahmetsemsettinozdemirden
-  - ✅ aholake
-  - ✅ ahsanatha
-  - ✅ ahump20
-  - ✅ aiasisbot61
-  - ✅ aidanthebandit
-  - ✅ ainekomacx
-  - ✅ aisa-one
-  - ✅ ajanraj
-  - ✅ ajarmoszuk
-  - ✅ ajmwagar
-  - ✅ ajstafford
-  - ✅ ak-khalis
-  - ✅ akdeepankar
-  - ✅ akegaviar
-  - ✅ akellacom
-  - ✅ akhil-naidu
-  - ✅ akshat-mishra101
-  - ✅ akshatgada
-  - ✅ alaa-eddine
-  - ✅ albert-mr
-  - ✅ albertnjcn
-  - ✅ alex-indi
-  - ✅ alexander-spring
-  - ✅ alexanys
-  - ✅ alexerm
-  - ✅ alexrudloff
-  - ✅ alexunitario-sketch
-  - ✅ alfrescian
-  - ✅ alirezarezvani
-  - ✅ alladin0809
-  - ✅ allen566
-  - ✅ alonw0
-  - ✅ alonx2
-  - ✅ alopez3006
-  - ✅ alphafactor
-  - ✅ alslrl
-  - ✅ aluvia-connectivity
-  - ✅ alvarobcmed
-  - ✅ aly-joseph
-  - ✅ am-will
-  - ✅ amanbhandula
-  - ✅ amangarg1999
-  - ✅ amar1432
-  - ✅ amascia-gg
-  - ✅ amirbrooks
-  - ✅ amirmabhout
-  - ✅ amoghacloud
-  - ✅ amoghpurohit
-  - ✅ amogower
-  - ✅ ampedfinance
-  - ✅ amreahmed
-  - ✅ amruthpillai
-  - ✅ amstko
+### openclaw-skills/（识别到技能目录：2137）
+- ✅ 0731coderlee-sudo
+- ✅ 0xadamsu
+- ✅ 0xbreadguy
+- ✅ 0xdaxiongya
+- ✅ 0xdismissals
+- ✅ 0xguardbot
+- ✅ 0xjordansg-yolo
+- ✅ 0xlucasliao
+- ✅ 0xm1kr
+- ✅ 0xmasayoshi
+- ✅ 0xmevdad
+- ✅ 0xmythril
+- ✅ 0xnagato
+- ✅ 0xnb-dev
+- ✅ 0xreisearch
+- ✅ 0xrichyrich
+- ✅ 0xrikt
+- ✅ 0xsolace
+- ✅ 0xterrybit
+- ✅ 0xzk-lucas
+- ✅ 10e9928a
+- ✅ 10xcoldleads
+- ✅ 1lystore
+- ✅ 247arjun
+- ✅ 26medias
+- ✅ 2mawi2
+- ✅ 362224222
+- ✅ 402goose
+- ✅ 4xiomdev
+- ✅ 5hanth
+- ✅ 801c07
+- ✅ 88kev
+- ✅ 8claw
+- ✅ a-anand-91119
+- ✅ aamish99
+- ✅ aaronchartier
+- ✅ aaronfrancis635
+- ✅ aaronjmars
+- ✅ aaronn
+- ✅ aaronxx
+- ✅ aatmaan1
+- ✅ abakermi
+- ✅ abdhilabs
+- ✅ abe238
+- ✅ abgohel
+- ✅ abhi152003
+- ✅ abhinavjp
+- ✅ abhiramee08b021
+- ✅ abhishek-official1
+- ✅ abishekdharshan
+- ✅ abk234
+- ✅ abrahamventura
+- ✅ abtdomain
+- ✅ acastellana
+- ✅ acfranzen
+- ✅ ad2546
+- ✅ adamjsturrock
+- ✅ adamkristopher
+- ✅ adamsardo
+- ✅ adarshdigievo
+- ✅ adarshmishra07
+- ✅ adboio
+- ✅ addisonhellum
+- ✅ addozhang
+- ✅ adebayoabdushaheed-a11y
+- ✅ adibirzu
+- ✅ adinvadim
+- ✅ aditya4206360-prog
+- ✅ adlai88
+- ✅ administratorfung
+- ✅ adolago
+- ✅ adrianmiller99
+- ✅ adunne09
+- ✅ aerialcombat
+- ✅ afajohn
+- ✅ afalk42
+- ✅ afeef23
+- ✅ agentandbot-design
+- ✅ agentossoftware
+- ✅ agmmnn
+- ✅ ahmedshahhatal
+- ✅ ahmedthegeek
+- ✅ ahmetsemsettinozdemirden
+- ✅ aholake
+- ✅ ahsanatha
+- ✅ ahump20
+- ✅ aiasisbot61
+- ✅ aidanthebandit
+- ✅ ainekomacx
+- ✅ aisa-one
+- ✅ aisadevco
+- ✅ aisadocs
+- ✅ aisapay
+- ✅ ajanraj
+- ✅ ajarmoszuk
+- ✅ ajmwagar
+- ✅ ajstafford
+- ✅ ak-khalis
+- ✅ aka-anoop
+- ✅ akdeepankar
+- ✅ akegaviar
+- ✅ akellacom
+- ✅ akhil-naidu
+- ✅ akshat-mishra101
+- ✅ akshatgada
+- ✅ alaa-eddine
+- ✅ albert-mr
+- ✅ albertnjcn
+- ✅ aleph8
+- ✅ alex-indi
+- ✅ alexander-morris
+- ✅ alexander-spring
+- ✅ alexanys
+- ✅ alexerm
+- ✅ alexmog
+- ✅ alexrudloff
+- ✅ alexunitario-sketch
+- ✅ alfrescian
+- ✅ alirezarezvani
+- ✅ alladin0809
 
-### planning-with-files/
-- 分类：**root**（识别到技能目录：0）
-  - ⚠️ 该分类下未识别到 SKILL.md（可能是集合/文档仓库）
+### planning-with-files/（识别到技能目录：0）
+- ⚠️ 未识别到 SKILL.md（可能是集合/文档仓库）
 
-### superpowers/
-- 分类：**skills**（识别到技能目录：14）
-  - ✅ brainstorming
-  - ✅ dispatching-parallel-agents
-  - ✅ executing-plans
-  - ✅ finishing-a-development-branch
-  - ✅ receiving-code-review
-  - ✅ requesting-code-review
-  - ✅ subagent-driven-development
-  - ✅ systematic-debugging
-  - ✅ test-driven-development
-  - ✅ using-git-worktrees
-  - ✅ using-superpowers
-  - ✅ verification-before-completion
-  - ✅ writing-plans
-  - ✅ writing-skills
+### superpowers/（识别到技能目录：14）
+- ✅ brainstorming
+- ✅ dispatching-parallel-agents
+- ✅ executing-plans
+- ✅ finishing-a-development-branch
+- ✅ receiving-code-review
+- ✅ requesting-code-review
+- ✅ subagent-driven-development
+- ✅ systematic-debugging
+- ✅ test-driven-development
+- ✅ using-git-worktrees
+- ✅ using-superpowers
+- ✅ verification-before-completion
+- ✅ writing-plans
+- ✅ writing-skills
 
