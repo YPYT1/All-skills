@@ -76,7 +76,6 @@
 - ✅ **supabase-edge-functions**
 - ✅ **supabase-realtime**
 - ✅ **supabase-storage**
-- ✅ **travel-agent**
 - ✅ **ui-designer**
 - ✅ **ui-ux-pro-max**
 - ✅ **ultrathink**
@@ -401,7 +400,7 @@
 - ✅ skill-creator
 - ✅ skill-installer
 
-### openclaw-skills/（识别到技能目录：2152）
+### openclaw-skills/（识别到技能目录：2151）
 - ✅ 0731coderlee-sudo
 - ✅ 0xadamsu
 - ✅ 0xbreadguy

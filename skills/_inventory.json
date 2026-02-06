@@ -1,5 +1,5 @@
 {
-  "count": 89,
+  "count": 88,
   "skills": [
     {
       "name": "adhd-assistant",
@@ -300,10 +300,6 @@
     {
       "name": "supabase-storage",
       "path": "skills/supabase-storage"
-    },
-    {
-      "name": "travel-agent",
-      "path": "skills/travel-agent"
     },
     {
       "name": "ui-designer",
