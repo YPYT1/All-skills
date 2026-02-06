@@ -70,7 +70,6 @@
 - ✅ **ringbot**
 - ✅ **search3**
 - ✅ **senior-backend**
-- ✅ **skill-creator**
 - ✅ **sonoscli**
 - ✅ **supabase-auth**
 - ✅ **supabase-database**
@@ -83,7 +82,6 @@
 - ✅ **ultrathink**
 - ✅ **unit-test-generator**
 - ✅ **ux-researcher**
-- ✅ **vercel-deploy**
 - ✅ **vercel-react-best-practices**
 - ✅ **verify-on-browser**
 - ✅ **vocal-chat**

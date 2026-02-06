@@ -1,5 +1,5 @@
 {
-  "count": 91,
+  "count": 89,
   "skills": [
     {
       "name": "adhd-assistant",
@@ -278,10 +278,6 @@
       "path": "skills/senior-backend"
     },
     {
-      "name": "skill-creator",
-      "path": "skills/skill-creator"
-    },
-    {
       "name": "sonoscli",
       "path": "skills/sonoscli"
     },
@@ -328,10 +324,6 @@
     {
       "name": "ux-researcher",
       "path": "skills/ux-researcher"
-    },
-    {
-      "name": "vercel-deploy",
-      "path": "skills/vercel-deploy"
     },
     {
       "name": "vercel-react-best-practices",
