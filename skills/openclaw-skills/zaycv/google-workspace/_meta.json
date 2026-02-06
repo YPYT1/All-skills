@@ -3,11 +3,16 @@
   "slug": "google-workspace",
   "displayName": "Google Workspace",
   "latest": {
-    "version": "1.0.3",
-    "publishedAt": 1770355200343,
-    "commit": "https://github.com/openclaw/skills/commit/bf12dc2c4b7a553f9fb4c683db7de40e02f0ff3a"
+    "version": "1.0.5",
+    "publishedAt": 1770364305715,
+    "commit": "https://github.com/openclaw/skills/commit/79bcd672d960078682f493763ff156e006e1e6ab"
   },
   "history": [
+    {
+      "version": "1.0.3",
+      "publishedAt": 1770355200343,
+      "commit": "https://github.com/openclaw/skills/commit/bf12dc2c4b7a553f9fb4c683db7de40e02f0ff3a"
+    },
     {
       "version": "1.0.2",
       "publishedAt": 1770269679660,
