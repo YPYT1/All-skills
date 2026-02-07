@@ -400,7 +400,7 @@
 - ✅ skill-creator
 - ✅ skill-installer
 
-### openclaw-skills/（识别到技能目录：2294）
+### openclaw-skills/（识别到技能目录：2297）
 - ✅ 0731coderlee-sudo
 - ✅ 0xadamsu
 - ✅ 0xbreadguy
@@ -515,12 +515,12 @@
 - ✅ alaa-eddine
 - ✅ albert-mr
 - ✅ albertnjcn
+- ✅ alebrega
 - ✅ aleph8
 - ✅ alex-indi
 - ✅ alex-tradequo
 - ✅ alexander-morris
 - ✅ alexander-spring
-- ✅ alexanys
 
 ### planning-with-files/（识别到技能目录：0）
 - ⚠️ 未识别到 SKILL.md（可能是集合/文档仓库）
