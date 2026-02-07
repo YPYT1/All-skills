@@ -400,7 +400,7 @@
 - ✅ skill-creator
 - ✅ skill-installer
 
-### openclaw-skills/（识别到技能目录：2157）
+### openclaw-skills/（识别到技能目录：2226）
 - ✅ 0731coderlee-sudo
 - ✅ 0xadamsu
 - ✅ 0xbreadguy
@@ -412,6 +412,7 @@
 - ✅ 0xm1kr
 - ✅ 0xmasayoshi
 - ✅ 0xmevdad
+- ✅ 0xmugen
 - ✅ 0xmythril
 - ✅ 0xnagato
 - ✅ 0xnb-dev
@@ -481,12 +482,14 @@
 - ✅ agentandbot-design
 - ✅ agentossoftware
 - ✅ agmmnn
+- ✅ ahiven
 - ✅ ahmedshahhatal
 - ✅ ahmedthegeek
 - ✅ ahmetsemsettinozdemirden
 - ✅ aholake
 - ✅ ahsanatha
 - ✅ ahump20
+- ✅ ai-chen2050
 - ✅ aiasisbot61
 - ✅ aidanthebandit
 - ✅ ainekomacx
@@ -518,9 +521,6 @@
 - ✅ alexerm
 - ✅ alexmog
 - ✅ alexrudloff
-- ✅ alexunitario-sketch
-- ✅ alfrescian
-- ✅ alien69flow
 
 ### planning-with-files/（识别到技能目录：0）
 - ⚠️ 未识别到 SKILL.md（可能是集合/文档仓库）
