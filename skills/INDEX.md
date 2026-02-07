@@ -400,7 +400,7 @@
 - ✅ skill-creator
 - ✅ skill-installer
 
-### openclaw-skills/（识别到技能目录：2226）
+### openclaw-skills/（识别到技能目录：2228）
 - ✅ 0731coderlee-sudo
 - ✅ 0xadamsu
 - ✅ 0xbreadguy
