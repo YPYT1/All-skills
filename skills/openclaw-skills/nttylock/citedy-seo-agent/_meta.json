@@ -1,0 +1,11 @@
+{
+  "owner": "nttylock",
+  "slug": "citedy-seo-agent",
+  "displayName": "Citedy SEO Agent",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770431951350,
+    "commit": "https://github.com/openclaw/skills/commit/70d5c2be0969ea70ecd14e438afd153dcd98bf46"
+  },
+  "history": []
+}

@@ -1,0 +1,11 @@
+{
+  "owner": "fcavalcantirj",
+  "slug": "proactive-solvr",
+  "displayName": "Proactive Solvr",
+  "latest": {
+    "version": "1.3.2",
+    "publishedAt": 1770434879489,
+    "commit": "https://github.com/openclaw/skills/commit/926d275f97d35db076fe30fe84de2f8161cbeba3"
+  },
+  "history": []
+}

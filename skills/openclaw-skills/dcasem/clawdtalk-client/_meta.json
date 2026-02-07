@@ -1,0 +1,11 @@
+{
+  "owner": "dcasem",
+  "slug": "clawdtalk-client",
+  "displayName": "ClawdTalk",
+  "latest": {
+    "version": "1.0.0",
+    "publishedAt": 1770441680124,
+    "commit": "https://github.com/openclaw/skills/commit/8ea8be7afc1447758ddce88f4f8b85fe3d289aae"
+  },
+  "history": []
+}
